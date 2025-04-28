@@ -1,0 +1,154 @@
+.card{
+    
+    padding: 1px !important;
+    border-radius: 35px !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    margin-bottom: 30px; /* Agrega un poco de espacio entre las tarjetas */
+    background-color: #000000d5;
+    
+  
+    box-shadow:
+        0 0 10px #FF4081, /* Color base del "neón" */
+        0 0 10px #FF4081,
+        0 0 15px #FF4081,
+        0 0 20px #FF4081,
+        0 0 25px #FF4081; /* Múltiples sombras para intensificar el brillo */
+    margin: 90px; /* Agrega un poco de espacio entre las tarjetas */
+    border: none; /* Opcional: elimina el borde predeterminado si lo tienes */
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    color:#373022;
+   
+    
+}
+
+.card-body{
+  text-align: center; 
+  background-color: #373022;
+  color:#c5ac8e !important;
+  
+}
+
+.card:hover{
+    transform: scale(1.05); /* Agranda la tarjeta al pasar el mouse */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agrega una sombra para destacar */
+}
+
+.card .descripcion{
+    position:absolute;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    color: rgb(245, 245, 245);
+    padding: 10px;
+    opacity: 0; /* Inicialmente oculta */
+    transition: opacity 0.3s ease-in-out; /* Transición suave para la opacidad */
+    text-align: center;
+   
+    font-size:xx-large;   
+    
+}
+
+.card:hover .descripcion {
+   opacity: 1;
+  
+  }
+  
+ 
+  .card2{
+    
+    padding: 0px !important;
+    border-radius: 40px !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    margin-bottom: 20px; /* Agrega un poco de espacio entre las tarjetas */
+    background-color: #000000d5;
+    
+    
+    box-shadow:
+        0 0 10px #FF4081, /* Color base del "neón" */
+        0 0 10px #FF4081,
+        0 0 15px #FF4081,
+        0 0 20px #FF4081,
+        0 0 25px #FF4081; /* Múltiples sombras para intensificar el brillo */
+    margin: 90px; /* Agrega un poco de espacio entre las tarjetas */
+   
+    position: relative;
+    color: #c5ac8e;
+    width: 100%;
+    border: none !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.section-cards {
+    background-color: rgb(228, 228, 183);
+    padding: 2rem 0;
+    color: hsl(50, 62%, 75%);
+  }
+  
+  .body {
+    background-color: #000 !important;
+    color: #fff;
+  }
+
+
+  
+ 
+  .card-verde{
+    
+    padding: 0px !important;
+    border-radius: 35px !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    margin-bottom: 30px; /* Agrega un poco de espacio entre las tarjetas */
+    background-color: #000000d5;
+    
+    border-radius: 10px;
+    box-shadow: 
+    0 0 10px #00FF00,
+    0 0 10px #00FF00,
+    0 0 15px #00FF00,
+    0 0 20px #00FF00,
+    0 0 25px #00FF00;
+         /* Múltiples sombras para intensificar el brillo */
+    margin: 90px; /* Agrega un poco de espacio entre las tarjetas */
+    border: none; /* Opcional: elimina el borde predeterminado si lo tienes */
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    color:#373022;
+   
+    
+}
+.card-verde:hover{
+  transform: scale(1.05); /* Agranda la tarjeta al pasar el mouse */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agrega una sombra para destacar */
+}
+
+.card-verde .descripcion{
+  position:absolute;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+  color: rgb(245, 245, 245);
+  padding: 10px;
+  opacity: 0; /* Inicialmente oculta */
+  transition: opacity 0.3s ease-in-out; /* Transición suave para la opacidad */
+  text-align: center;
+ 
+  font-size:xx-large;   
+  
+}
+
+.card-verde:hover .descripcion {
+ opacity: 1;
+
+}
+
+.card-header2{
+  color: rgb(234, 227, 227);
+}

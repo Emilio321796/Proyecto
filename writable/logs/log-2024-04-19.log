@@ -1,0 +1,36 @@
+CRITICAL - 2024-04-19 18:35:48 --> Invalid file: "consultas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('consultas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('consultas', [], true)
+ 3 APPPATH\Controllers\Home.php(38): view('consultas')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->consultas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 18:37:11 --> Invalid file: "consultas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('consultas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('consultas', [], true)
+ 3 APPPATH\Controllers\Home.php(38): view('consultas')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->consultas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 18:37:48 --> Invalid file: "consultas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('consultas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('consultas', [], true)
+ 3 APPPATH\Controllers\Home.php(38): view('consultas')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->consultas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-19 18:39:05 --> Invalid file: "consultas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('consultas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('consultas', [], true)
+ 3 APPPATH\Controllers\Home.php(38): view('consultas')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->consultas()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

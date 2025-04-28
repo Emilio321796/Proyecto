@@ -1,0 +1,42 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-hidden {
+    transform: translateY(-100%);
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Color inicial del texto */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(238, 19, 19) !important; 
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+
+.navbar .d-flex .nav-link { /* Selecciona el nav-link dentro del div del carrito */
+    color: white; /* Color inicial del icono (aunque el fill del SVG lo controla) */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar .d-flex .nav-link:hover {
+    color: rgb(238, 19, 19); /* Cambia el color del texto (si lo hubiera) */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño del icono */
+}
+
+.navbar .d-flex .nav-link:hover svg {
+    fill: rgb(238, 19, 19); /* Cambia el color del icono SVG al hacer hover */
+}
+
+.navbar .d-flex .nav-link svg {
+    fill: white; /* Color inicial del icono SVG */
+    transition: fill 0.3s ease, transform 0.3s ease;
+}

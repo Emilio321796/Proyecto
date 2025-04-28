@@ -1,0 +1,78 @@
+html, body {
+    
+    
+    display: flex;
+    flex-direction: column;
+    color: #050505 !important;
+   
+    
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+    /* Tus estilos existentes para el footer */
+    background-color: rgb(138, 138, 95) !important;
+    text-align: center;
+    width: 100% !important;
+    color: #050505 !important;
+    box-sizing: border-box !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.3s ease-in-out; /* Para una transición suave */
+   
+   
+}
+
+.foo-container {
+    width: 100%;
+   
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(20, 17, 17);
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #0b0a0a !important ;
+    font-size: 16px;
+}
+
+.footer-links ul li a:hover {
+    color: #007bff;
+}
+
+.social-links li a {
+    font-size: 20px;
+    color: #030202 !important;
+}
+
+.social-links li a:hover {
+    color: #007bff;
+}
+
+/* @media (max-width: 768px) 
+    .footer {
+        padding: 10px 0;
+    }
+
+    .footer-links ul li a {
+        font-size: 14px;
+    }
+} 
+
+.footer--hidden {
+    transform: translateY(100%); /* Lo mueve hacia abajo fuera de la vista */
+}

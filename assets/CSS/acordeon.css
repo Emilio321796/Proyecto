@@ -1,0 +1,55 @@
+.accordion-button {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e7f1ff;
+    color: #000;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.accordion-body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.payment-accordion {
+    background-color: transparent;
+    border: none;
+}
+
+.payment-methods img {
+    height: 40px;
+    margin: 5px;
+}
+s
+body{
+    background-color: hsl(0, 4%, 5%) !important;
+}
+.payment-accordion {
+    background-color: #fff;
+}
+
+.payment-accordion .accordion-header button {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.payment-accordion .accordion-header button:not(.collapsed) {
+    background-color: #e9ecef;
+}
+
+.payment-accordion .accordion-body {
+    background-color: #f8f9fa;
+    color: #333;
+}
