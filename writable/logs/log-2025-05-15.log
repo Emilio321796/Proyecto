@@ -1,0 +1,544 @@
+INFO - 2025-05-15 00:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:09:38 --> Cart Class Initialized
+INFO - 2025-05-15 00:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 00:12:44 --> Cart Class Initialized
+INFO - 2025-05-15 01:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:04:05 --> Cart Class Initialized
+INFO - 2025-05-15 01:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:05:39 --> Cart Class Initialized
+INFO - 2025-05-15 01:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:05:50 --> Cart Class Initialized
+INFO - 2025-05-15 01:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:05:57 --> Cart Class Initialized
+INFO - 2025-05-15 01:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:06:15 --> Cart Class Initialized
+INFO - 2025-05-15 01:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:06:27 --> Cart Class Initialized
+INFO - 2025-05-15 01:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:06:32 --> Cart Class Initialized
+INFO - 2025-05-15 01:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:06:35 --> Cart Class Initialized
+INFO - 2025-05-15 01:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:06:40 --> Cart Class Initialized
+INFO - 2025-05-15 01:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:07:20 --> Cart Class Initialized
+INFO - 2025-05-15 01:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:07:30 --> Cart Class Initialized
+INFO - 2025-05-15 01:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:18:44 --> Cart Class Initialized
+INFO - 2025-05-15 01:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:19:55 --> Cart Class Initialized
+INFO - 2025-05-15 01:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:21:32 --> Cart Class Initialized
+INFO - 2025-05-15 01:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:23:35 --> Cart Class Initialized
+INFO - 2025-05-15 01:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:24:07 --> Cart Class Initialized
+INFO - 2025-05-15 01:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:24:36 --> Cart Class Initialized
+INFO - 2025-05-15 01:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:25:21 --> Cart Class Initialized
+INFO - 2025-05-15 01:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:25:25 --> Cart Class Initialized
+INFO - 2025-05-15 01:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:25:35 --> Cart Class Initialized
+INFO - 2025-05-15 01:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:25:38 --> Cart Class Initialized
+INFO - 2025-05-15 01:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:25:42 --> Cart Class Initialized
+INFO - 2025-05-15 01:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:27:02 --> Cart Class Initialized
+INFO - 2025-05-15 01:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:27:06 --> Cart Class Initialized
+INFO - 2025-05-15 01:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:27:08 --> Cart Class Initialized
+INFO - 2025-05-15 01:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:28:45 --> Cart Class Initialized
+INFO - 2025-05-15 01:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:32:02 --> Cart Class Initialized
+INFO - 2025-05-15 01:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:32:05 --> Cart Class Initialized
+INFO - 2025-05-15 01:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 01:32:16 --> Cart Class Initialized
+INFO - 2025-05-15 02:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 02:24:39 --> Cart Class Initialized
+INFO - 2025-05-15 12:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 12:50:47 --> Cart Class Initialized
+INFO - 2025-05-15 12:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 12:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 12:51:28 --> Cart Class Initialized
+INFO - 2025-05-15 12:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 12:51:52 --> Cart Class Initialized
+INFO - 2025-05-15 12:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 12:51:59 --> Cart Class Initialized
+INFO - 2025-05-15 12:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 12:53:14 --> Cart Class Initialized
+INFO - 2025-05-15 12:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 12:53:17 --> Cart Class Initialized
+INFO - 2025-05-15 12:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 12:54:22 --> Cart Class Initialized
+INFO - 2025-05-15 12:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 12:54:24 --> Cart Class Initialized
+CRITICAL - 2025-05-15 13:05:07 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('Views/nav-view')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 13:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:06:47 --> Cart Class Initialized
+INFO - 2025-05-15 13:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:11:17 --> Cart Class Initialized
+INFO - 2025-05-15 13:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:18:41 --> Cart Class Initialized
+INFO - 2025-05-15 13:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:20:58 --> Cart Class Initialized
+INFO - 2025-05-15 13:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:21:30 --> Cart Class Initialized
+INFO - 2025-05-15 13:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:22:13 --> Cart Class Initialized
+INFO - 2025-05-15 13:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:22:22 --> Cart Class Initialized
+INFO - 2025-05-15 13:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:24:56 --> Cart Class Initialized
+INFO - 2025-05-15 13:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:26:40 --> Cart Class Initialized
+INFO - 2025-05-15 13:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:26:49 --> Cart Class Initialized
+INFO - 2025-05-15 13:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:30:44 --> Cart Class Initialized
+INFO - 2025-05-15 13:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:31:28 --> Cart Class Initialized
+INFO - 2025-05-15 13:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:31:44 --> Cart Class Initialized
+INFO - 2025-05-15 13:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:31:50 --> Cart Class Initialized
+INFO - 2025-05-15 13:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:32:04 --> Cart Class Initialized
+INFO - 2025-05-15 13:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:34:58 --> Cart Class Initialized
+CRITICAL - 2025-05-15 13:35:01 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(24): view('Views/nav-view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 13:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:38:55 --> Cart Class Initialized
+CRITICAL - 2025-05-15 13:39:00 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(24): view('Views/nav-view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-15 13:40:06 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(24): view('Views/nav-view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-15 13:40:18 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(24): view('Views/nav-view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-15 13:42:00 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(24): view('Views/nav-view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 13:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:46:29 --> Cart Class Initialized
+CRITICAL - 2025-05-15 13:46:37 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(24): view('Views/nav-view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 13:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:46:41 --> Cart Class Initialized
+INFO - 2025-05-15 13:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:46:44 --> Cart Class Initialized
+INFO - 2025-05-15 13:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:46:46 --> Cart Class Initialized
+INFO - 2025-05-15 13:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:46:48 --> Cart Class Initialized
+INFO - 2025-05-15 13:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:47:47 --> Cart Class Initialized
+INFO - 2025-05-15 13:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:47:50 --> Cart Class Initialized
+INFO - 2025-05-15 13:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:47:53 --> Cart Class Initialized
+CRITICAL - 2025-05-15 13:47:56 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(24): view('Views/nav-view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 13:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 13:48:03 --> Cart Class Initialized
+INFO - 2025-05-15 14:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:07:49 --> Cart Class Initialized
+INFO - 2025-05-15 14:07:49 --> Cart Class Initialized
+INFO - 2025-05-15 14:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:08:12 --> Cart Class Initialized
+CRITICAL - 2025-05-15 14:08:20 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(24): view('Views/nav-view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 14:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:08:25 --> Cart Class Initialized
+INFO - 2025-05-15 14:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:08:28 --> Cart Class Initialized
+INFO - 2025-05-15 14:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:08:31 --> Cart Class Initialized
+INFO - 2025-05-15 14:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:08:41 --> Cart Class Initialized
+INFO - 2025-05-15 14:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:08:51 --> Cart Class Initialized
+CRITICAL - 2025-05-15 14:08:58 --> Invalid file: "nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nav-view', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(16): view('nav-view')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 14:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-15 14:09:03 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/nav-view')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 14:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-15 14:09:11 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/nav-view')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-15 14:09:19 --> Invalid file: "nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nav-view', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(16): view('nav-view')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-15 14:14:21 --> Invalid file: "nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nav-view', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(16): view('nav-view')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-15 14:16:50 --> Invalid file: "nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nav-view', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(16): view('nav-view')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 14:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:17:30 --> Cart Class Initialized
+INFO - 2025-05-15 14:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:17:36 --> Cart Class Initialized
+CRITICAL - 2025-05-15 14:17:40 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(24): view('Views/nav-view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 14:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 14:18:59 --> Cart Class Initialized
+CRITICAL - 2025-05-15 14:19:06 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(24): view('Views/nav-view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 20:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:17:01 --> Cart Class Initialized
+CRITICAL - 2025-05-15 20:17:02 --> Invalid file: "Views/Front/end-view..php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/Front/end-view..php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Front/end-view.', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('Views/Front/end-view.')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 20:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:17:53 --> Cart Class Initialized
+INFO - 2025-05-15 20:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:18:19 --> Cart Class Initialized
+INFO - 2025-05-15 20:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:18:22 --> Cart Class Initialized
+INFO - 2025-05-15 20:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:18:25 --> Cart Class Initialized
+INFO - 2025-05-15 20:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:22:33 --> Cart Class Initialized
+INFO - 2025-05-15 20:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:27:51 --> Cart Class Initialized
+INFO - 2025-05-15 20:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:28:50 --> Cart Class Initialized
+INFO - 2025-05-15 20:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:28:55 --> Cart Class Initialized
+INFO - 2025-05-15 20:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:32:48 --> Cart Class Initialized
+INFO - 2025-05-15 20:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:33:46 --> Cart Class Initialized
+INFO - 2025-05-15 20:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:43:53 --> Cart Class Initialized
+CRITICAL - 2025-05-15 20:45:13 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(24): view('Views/nav-view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 20:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:51:56 --> Cart Class Initialized
+INFO - 2025-05-15 20:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:52:06 --> Cart Class Initialized
+INFO - 2025-05-15 20:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:52:14 --> Cart Class Initialized
+CRITICAL - 2025-05-15 20:52:17 --> Invalid file: "nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nav-view', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(16): view('nav-view')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 20:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 20:53:56 --> Cart Class Initialized
+CRITICAL - 2025-05-15 20:53:56 --> Invalid file: "Views/Front/Productos/Crud_Producto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/Front/Productos/Crud_Producto.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Front/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(36): view('Views/Front/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-15 20:54:01 --> Invalid file: "nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nav-view', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(16): view('nav-view')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 21:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 21:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 21:36:49 --> Cart Class Initialized
+INFO - 2025-05-15 21:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 21:36:53 --> Cart Class Initialized
+INFO - 2025-05-15 21:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 21:37:47 --> Cart Class Initialized
+INFO - 2025-05-15 21:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 21:38:43 --> Cart Class Initialized
+INFO - 2025-05-15 21:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 21:42:12 --> Cart Class Initialized
+INFO - 2025-05-15 21:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 21:43:54 --> Cart Class Initialized
+INFO - 2025-05-15 21:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 21:55:12 --> Cart Class Initialized
+INFO - 2025-05-15 21:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 21:56:14 --> Cart Class Initialized
+INFO - 2025-05-15 21:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 21:56:20 --> Cart Class Initialized
+INFO - 2025-05-15 21:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 21:59:22 --> Cart Class Initialized
+INFO - 2025-05-15 22:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:10:20 --> Cart Class Initialized
+INFO - 2025-05-15 22:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:10:44 --> Cart Class Initialized
+INFO - 2025-05-15 22:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:10:53 --> Cart Class Initialized
+INFO - 2025-05-15 22:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:10:55 --> Cart Class Initialized
+INFO - 2025-05-15 22:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:11:12 --> Cart Class Initialized
+INFO - 2025-05-15 22:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:11:23 --> Cart Class Initialized
+CRITICAL - 2025-05-15 22:11:34 --> Invalid file: "nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nav-view', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(16): view('nav-view')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 22:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:11:40 --> Cart Class Initialized
+CRITICAL - 2025-05-15 22:11:40 --> Invalid file: "Views/Front/Productos/Crud_Producto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/Front/Productos/Crud_Producto.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Front/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(36): view('Views/Front/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 22:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:11:56 --> Cart Class Initialized
+INFO - 2025-05-15 22:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:14:23 --> Cart Class Initialized
+INFO - 2025-05-15 22:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:17:02 --> Cart Class Initialized
+INFO - 2025-05-15 22:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:22:38 --> Cart Class Initialized
+INFO - 2025-05-15 22:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:25:55 --> Cart Class Initialized
+INFO - 2025-05-15 22:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:28:53 --> Cart Class Initialized
+INFO - 2025-05-15 22:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:35:39 --> Cart Class Initialized
+INFO - 2025-05-15 22:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:36:51 --> Cart Class Initialized
+INFO - 2025-05-15 22:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:39:20 --> Cart Class Initialized
+INFO - 2025-05-15 22:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:39:24 --> Cart Class Initialized
+INFO - 2025-05-15 22:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-15 22:40:15 --> Invalid file: "Views/nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/nav-view', [], true)
+ 3 APPPATH\Controllers\Home.php(56): view('Views/nav-view')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->Registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-05-15 22:43:10 --> Invalid file: "nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nav-view', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(68): view('nav-view')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->formValidation()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 22:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:46:06 --> Cart Class Initialized
+CRITICAL - 2025-05-15 22:46:06 --> "alert" is not a valid Validation template.
+in SYSTEMPATH\Validation\Validation.php on line 577.
+ 1 SYSTEMPATH\Validation\Validation.php(577): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('alert')
+ 2 APPPATH\Views\Front\Login.php(79): CodeIgniter\Validation\Validation->showError('email', 'alert')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Front\\Login.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Front/Login', [], true)
+ 6 APPPATH\Controllers\usuario_controller.php(69): view('Front/Login', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->formValidation()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 22:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 22:48:57 --> Cart Class Initialized
+INFO - 2025-05-15 23:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 23:35:17 --> Cart Class Initialized
+INFO - 2025-05-15 23:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 23:35:33 --> Cart Class Initialized
+INFO - 2025-05-15 23:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 23:39:00 --> Cart Class Initialized
+INFO - 2025-05-15 23:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 23:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 23:42:38 --> Cart Class Initialized
+CRITICAL - 2025-05-15 23:42:42 --> Invalid file: "nav-view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nav-view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nav-view', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(16): view('nav-view')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-15 23:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 23:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 23:43:31 --> Cart Class Initialized
+INFO - 2025-05-15 23:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 23:44:39 --> Cart Class Initialized
+INFO - 2025-05-15 23:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 23:59:22 --> Cart Class Initialized
+INFO - 2025-05-15 23:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 23:59:27 --> Cart Class Initialized
+INFO - 2025-05-15 23:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 23:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 23:59:34 --> Cart Class Initialized
+INFO - 2025-05-15 23:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-15 23:59:37 --> Cart Class Initialized
+CRITICAL - 2025-05-15 23:59:37 --> Invalid file: "Views/Front/Productos/Crud_Producto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/Front/Productos/Crud_Producto.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Front/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(36): view('Views/Front/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

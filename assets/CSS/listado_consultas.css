@@ -1,0 +1,48 @@
+    body {
+      background: #f2f5f9;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .custom-card {
+      background: #fff;
+      border: none;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+
+    .custom-table th {
+      background: #343a40;
+      color: white;
+      text-align: center;
+    }
+
+    .custom-table td {
+      background: #ffffff;
+      vertical-align: middle;
+    }
+
+    .table-striped > tbody > tr:nth-of-type(odd) {
+      background-color: #f8f9fa;
+    }
+
+    .page-title {
+      font-weight: 600;
+      font-size: 1.8rem;
+      color: #333;
+    }
+
+    .btn-return {
+      background: #343a40;
+      color: white;
+      border-radius: 30px;
+    }
+
+    .btn-return:hover {
+      background: #495057;
+    }
+
+    .alert-success {
+      border-radius: 12px;
+    }
+  

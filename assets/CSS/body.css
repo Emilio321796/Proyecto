@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* ocupa toda la altura de la ventana */
+    overflow-x: hidden;
+  }
+  
+  main {
+    flex: 1; /* el main se expande para ocupar el espacio disponible */
+  }
+

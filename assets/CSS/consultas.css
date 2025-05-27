@@ -1,0 +1,43 @@
+body{
+    background-color: #281f1f !important;
+}
+
+.container{
+   padding: 20px;
+   border-radius: 30px;
+}
+
+ .formulario-consulta {
+    background-color: #e9ecef; /* gris claro */
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 5rem; /* aumenta el margen inferior */
+  }
+
+  .formulario-consulta .card-header {
+    background-color: #000000; /* negro */
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  .btn-primary {
+    background-color: #0dcaf0; /* celeste */
+    border-color: #0dcaf0;
+  }
+
+  .btn-primary:hover {
+    background-color: #31d2f2;
+    border-color: #25cff2;
+  }
+
+  .btn-secondary {
+    background-color: #a4d4e4;
+    border-color: #a4d4e4;
+    color: #000;
+  }
+
+  .btn-secondary:hover {
+    background-color: #87c4d7;
+    border-color: #87c4d7;
+    color: #000;
+  }

@@ -1,0 +1,1317 @@
+INFO - 2024-07-01 14:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 14:55:56 --> Cart Class Initialized
+INFO - 2024-07-01 14:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 14:56:25 --> Cart Class Initialized
+INFO - 2024-07-01 15:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:05:38 --> Cart Class Initialized
+INFO - 2024-07-01 15:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:05:48 --> Cart Class Initialized
+INFO - 2024-07-01 15:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:24:27 --> Cart Class Initialized
+INFO - 2024-07-01 15:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-01 15:24:31 --> syntax error, unexpected '"categoria_id"' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\Producto_controller.php on line 61.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Producto_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Producto_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Producto_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 15:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-01 15:25:26 --> syntax error, unexpected '"categoria_id"' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\Producto_controller.php on line 85.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Producto_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Producto_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Producto_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 15:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-01 15:26:03 --> Undefined variable: dato
+in APPPATH\Controllers\Producto_controller.php on line 32.
+ 1 APPPATH\Controllers\Producto_controller.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dato', 'APPPATH\\Controllers\\Producto_controller.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 15:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:26:41 --> Cart Class Initialized
+CRITICAL - 2024-07-01 15:26:41 --> Undefined variable: categorias
+in APPPATH\Views\Productos\Crud_Producto.php on line 60.
+ 1 APPPATH\Views\Productos\Crud_Producto.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categorias', 'APPPATH\\Views\\Productos\\Crud_Producto.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Productos\\Crud_Producto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(33): view('Views/Productos/Crud_Producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 15:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:27:55 --> Cart Class Initialized
+CRITICAL - 2024-07-01 15:27:55 --> Undefined variable: categorias
+in APPPATH\Views\Productos\Crud_Producto.php on line 60.
+ 1 APPPATH\Views\Productos\Crud_Producto.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categorias', 'APPPATH\\Views\\Productos\\Crud_Producto.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Productos\\Crud_Producto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(33): view('Views/Productos/Crud_Producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 15:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:28:42 --> Cart Class Initialized
+CRITICAL - 2024-07-01 15:28:42 --> Undefined variable: categorias
+in APPPATH\Views\Productos\Crud_Producto.php on line 60.
+ 1 APPPATH\Views\Productos\Crud_Producto.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categorias', 'APPPATH\\Views\\Productos\\Crud_Producto.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Productos\\Crud_Producto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(33): view('Views/Productos/Crud_Producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 15:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:34:09 --> Cart Class Initialized
+CRITICAL - 2024-07-01 15:34:09 --> Undefined variable: categorias
+in APPPATH\Views\Productos\Crud_Producto.php on line 60.
+ 1 APPPATH\Views\Productos\Crud_Producto.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: categorias', 'APPPATH\\Views\\Productos\\Crud_Producto.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Productos\\Crud_Producto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(33): view('Views/Productos/Crud_Producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 15:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:38:17 --> Cart Class Initialized
+INFO - 2024-07-01 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:41:15 --> Cart Class Initialized
+INFO - 2024-07-01 15:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:41:22 --> Cart Class Initialized
+INFO - 2024-07-01 15:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:48:58 --> Cart Class Initialized
+INFO - 2024-07-01 15:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:49:04 --> Cart Class Initialized
+INFO - 2024-07-01 15:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:49:26 --> Cart Class Initialized
+INFO - 2024-07-01 15:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:50:57 --> Cart Class Initialized
+INFO - 2024-07-01 15:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:53:40 --> Cart Class Initialized
+INFO - 2024-07-01 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:53:46 --> Cart Class Initialized
+INFO - 2024-07-01 15:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 15:58:08 --> Cart Class Initialized
+INFO - 2024-07-01 16:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 16:02:35 --> Cart Class Initialized
+CRITICAL - 2024-07-01 16:02:35 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 138.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 16:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 16:04:20 --> Cart Class Initialized
+CRITICAL - 2024-07-01 16:04:20 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 144.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 16:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 16:05:03 --> Cart Class Initialized
+CRITICAL - 2024-07-01 16:05:03 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 142.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 16:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 16:05:26 --> Cart Class Initialized
+CRITICAL - 2024-07-01 16:05:26 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 145.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 16:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 16:08:03 --> Cart Class Initialized
+CRITICAL - 2024-07-01 16:08:03 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 146.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 16:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 16:08:14 --> Cart Class Initialized
+CRITICAL - 2024-07-01 16:08:14 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 145.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 16:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 16:08:28 --> Cart Class Initialized
+CRITICAL - 2024-07-01 16:08:28 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 145.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 16:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 16:10:58 --> Cart Class Initialized
+CRITICAL - 2024-07-01 16:10:58 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 143.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 16:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 16:11:19 --> Cart Class Initialized
+CRITICAL - 2024-07-01 16:11:19 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 142.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 16:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 16:11:30 --> Cart Class Initialized
+CRITICAL - 2024-07-01 16:11:30 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 143.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 16:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 16:12:15 --> Cart Class Initialized
+CRITICAL - 2024-07-01 16:12:15 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 145.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 16:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 16:12:25 --> Cart Class Initialized
+CRITICAL - 2024-07-01 16:12:25 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 145.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 16:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 16:24:41 --> Cart Class Initialized
+CRITICAL - 2024-07-01 16:24:41 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 138.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 17:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:09:42 --> Cart Class Initialized
+CRITICAL - 2024-07-01 17:09:42 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 138.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 17:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:11:41 --> Cart Class Initialized
+CRITICAL - 2024-07-01 17:11:41 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 138.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 17:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:18:00 --> Cart Class Initialized
+CRITICAL - 2024-07-01 17:18:00 --> syntax error, unexpected end of file
+in APPPATH\Views\Productos\Crud_Producto.php on line 139.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 17:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:19:00 --> Cart Class Initialized
+CRITICAL - 2024-07-01 17:19:00 --> Undefined variable: productos
+in APPPATH\Views\Productos\Crud_Producto.php on line 82.
+ 1 APPPATH\Views\Productos\Crud_Producto.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productos', 'APPPATH\\Views\\Productos\\Crud_Producto.php', 82, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Productos\\Crud_Producto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Crud_Producto', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(35): view('Views/Productos/Crud_Producto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->Crud()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 17:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:20:06 --> Cart Class Initialized
+INFO - 2024-07-01 17:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:25:30 --> Cart Class Initialized
+INFO - 2024-07-01 17:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:29:31 --> Cart Class Initialized
+INFO - 2024-07-01 17:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:31:17 --> Cart Class Initialized
+INFO - 2024-07-01 17:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:35:47 --> Cart Class Initialized
+INFO - 2024-07-01 17:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:36:01 --> Cart Class Initialized
+INFO - 2024-07-01 17:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:37:32 --> Cart Class Initialized
+INFO - 2024-07-01 17:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:39:33 --> Cart Class Initialized
+INFO - 2024-07-01 17:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:42:06 --> Cart Class Initialized
+INFO - 2024-07-01 17:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:43:35 --> Cart Class Initialized
+INFO - 2024-07-01 17:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:46:10 --> Cart Class Initialized
+INFO - 2024-07-01 17:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:48:54 --> Cart Class Initialized
+INFO - 2024-07-01 17:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:49:37 --> Cart Class Initialized
+INFO - 2024-07-01 17:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:51:41 --> Cart Class Initialized
+INFO - 2024-07-01 17:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:52:04 --> Cart Class Initialized
+INFO - 2024-07-01 17:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:53:54 --> Cart Class Initialized
+INFO - 2024-07-01 17:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 17:55:26 --> Cart Class Initialized
+INFO - 2024-07-01 18:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:18:48 --> Cart Class Initialized
+INFO - 2024-07-01 18:18:48 --> Cart Class Initialized
+INFO - 2024-07-01 18:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:20:44 --> Cart Class Initialized
+INFO - 2024-07-01 18:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:20:56 --> Cart Class Initialized
+INFO - 2024-07-01 18:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:21:54 --> Cart Class Initialized
+INFO - 2024-07-01 18:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:21:58 --> Cart Class Initialized
+INFO - 2024-07-01 18:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:22:57 --> Cart Class Initialized
+INFO - 2024-07-01 18:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:30:29 --> Cart Class Initialized
+INFO - 2024-07-01 18:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:31:04 --> Cart Class Initialized
+INFO - 2024-07-01 18:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:31:21 --> Cart Class Initialized
+INFO - 2024-07-01 18:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:32:27 --> Cart Class Initialized
+INFO - 2024-07-01 18:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:34:31 --> Cart Class Initialized
+INFO - 2024-07-01 18:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:35:00 --> Cart Class Initialized
+INFO - 2024-07-01 18:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:38:16 --> Cart Class Initialized
+INFO - 2024-07-01 18:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:38:36 --> Cart Class Initialized
+INFO - 2024-07-01 18:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:39:09 --> Cart Class Initialized
+INFO - 2024-07-01 18:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:39:55 --> Cart Class Initialized
+INFO - 2024-07-01 18:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:51:42 --> Cart Class Initialized
+INFO - 2024-07-01 18:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:52:14 --> Cart Class Initialized
+INFO - 2024-07-01 18:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:53:16 --> Cart Class Initialized
+INFO - 2024-07-01 18:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:53:41 --> Cart Class Initialized
+INFO - 2024-07-01 18:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:55:18 --> Cart Class Initialized
+INFO - 2024-07-01 18:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:55:42 --> Cart Class Initialized
+INFO - 2024-07-01 18:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:56:02 --> Cart Class Initialized
+INFO - 2024-07-01 18:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:57:23 --> Cart Class Initialized
+INFO - 2024-07-01 18:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:57:26 --> Cart Class Initialized
+INFO - 2024-07-01 18:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:58:02 --> Cart Class Initialized
+INFO - 2024-07-01 18:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:58:21 --> Cart Class Initialized
+INFO - 2024-07-01 18:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:59:00 --> Cart Class Initialized
+INFO - 2024-07-01 18:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:59:22 --> Cart Class Initialized
+INFO - 2024-07-01 18:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 18:59:39 --> Cart Class Initialized
+INFO - 2024-07-01 19:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:00:10 --> Cart Class Initialized
+INFO - 2024-07-01 19:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:00:27 --> Cart Class Initialized
+INFO - 2024-07-01 19:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:10:58 --> Cart Class Initialized
+INFO - 2024-07-01 19:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:11:13 --> Cart Class Initialized
+INFO - 2024-07-01 19:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:14:32 --> Cart Class Initialized
+INFO - 2024-07-01 19:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:16:19 --> Cart Class Initialized
+INFO - 2024-07-01 19:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:17:46 --> Cart Class Initialized
+INFO - 2024-07-01 19:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:18:40 --> Cart Class Initialized
+CRITICAL - 2024-07-01 19:19:50 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Producto_controller.php(142): CodeIgniter\Model->update('13', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->darAltaProducto('13')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 19:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:20:04 --> Cart Class Initialized
+INFO - 2024-07-01 19:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:20:24 --> Cart Class Initialized
+CRITICAL - 2024-07-01 19:20:31 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Producto_controller.php(142): CodeIgniter\Model->update('10', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->darAltaProducto('10')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 19:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:20:34 --> Cart Class Initialized
+CRITICAL - 2024-07-01 19:20:41 --> unlink(C:\xampp\htdocs\Proyecto-Emilio\writable\debugbar/debugbar_1719860118.703183.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\Proyecto-Emilio\\writable\\debugbar/debugbar_1719860118.703183.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('FCPATH\\writable\\debugbar/debugbar_1719860118.703183.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1719861624.945026', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(350): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 19:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:27:47 --> Cart Class Initialized
+INFO - 2024-07-01 19:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:32:06 --> Cart Class Initialized
+INFO - 2024-07-01 19:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:32:19 --> Cart Class Initialized
+INFO - 2024-07-01 19:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:33:15 --> Cart Class Initialized
+INFO - 2024-07-01 19:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:33:23 --> Cart Class Initialized
+INFO - 2024-07-01 19:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:34:28 --> Cart Class Initialized
+INFO - 2024-07-01 19:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:35:38 --> Cart Class Initialized
+INFO - 2024-07-01 19:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:35:51 --> Cart Class Initialized
+INFO - 2024-07-01 19:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:36:09 --> Cart Class Initialized
+INFO - 2024-07-01 19:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:36:45 --> Cart Class Initialized
+INFO - 2024-07-01 19:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:37:07 --> Cart Class Initialized
+INFO - 2024-07-01 19:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:37:21 --> Cart Class Initialized
+INFO - 2024-07-01 19:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:37:36 --> Cart Class Initialized
+INFO - 2024-07-01 19:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:40:02 --> Cart Class Initialized
+ERROR - 2024-07-01 19:40:06 --> mysqli_sql_exception: Unknown column 'producto.deleted_at' in 'where clause' in C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '9')
+#6 C:\xampp\htdocs\Proyecto-Emilio\app\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('9')
+#7 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('9')
+#8 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#9 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Emilio\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-01 19:40:06 --> Unknown column 'producto.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`
+WHERE `producto`.`deleted_at` IS NULL
+AND `producto`.`ID_Pro` = :producto.ID_Pro:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '9')
+ 4 APPPATH\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('9')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('9')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 19:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:41:37 --> Cart Class Initialized
+INFO - 2024-07-01 19:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:41:41 --> Cart Class Initialized
+INFO - 2024-07-01 19:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:41:43 --> Cart Class Initialized
+ERROR - 2024-07-01 19:41:48 --> mysqli_sql_exception: Unknown column 'producto.deleted_at' in 'where clause' in C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '6')
+#6 C:\xampp\htdocs\Proyecto-Emilio\app\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('6')
+#7 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('6')
+#8 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#9 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Emilio\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-01 19:41:48 --> Unknown column 'producto.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`
+WHERE `producto`.`deleted_at` IS NULL
+AND `producto`.`ID_Pro` = :producto.ID_Pro:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '6')
+ 4 APPPATH\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('6')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('6')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-01 19:43:24 --> mysqli_sql_exception: Unknown column 'producto.deleted_at' in 'where clause' in C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '6')
+#6 C:\xampp\htdocs\Proyecto-Emilio\app\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('6')
+#7 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('6')
+#8 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#9 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Emilio\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-01 19:43:24 --> Unknown column 'producto.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`
+WHERE `producto`.`deleted_at` IS NULL
+AND `producto`.`ID_Pro` = :producto.ID_Pro:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '6')
+ 4 APPPATH\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('6')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('6')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 19:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:43:27 --> Cart Class Initialized
+INFO - 2024-07-01 19:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:43:30 --> Cart Class Initialized
+ERROR - 2024-07-01 19:43:35 --> mysqli_sql_exception: Unknown column 'producto.deleted_at' in 'where clause' in C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '11')
+#6 C:\xampp\htdocs\Proyecto-Emilio\app\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('11')
+#7 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('11')
+#8 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#9 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Emilio\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-01 19:43:35 --> Unknown column 'producto.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`
+WHERE `producto`.`deleted_at` IS NULL
+AND `producto`.`ID_Pro` = :producto.ID_Pro:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '11')
+ 4 APPPATH\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('11')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('11')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-01 19:45:08 --> mysqli_sql_exception: Unknown column 'producto.deleted_at' in 'where clause' in C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '11')
+#6 C:\xampp\htdocs\Proyecto-Emilio\app\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('11')
+#7 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('11')
+#8 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#9 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Emilio\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-01 19:45:08 --> Unknown column 'producto.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`
+WHERE `producto`.`deleted_at` IS NULL
+AND `producto`.`ID_Pro` = :producto.ID_Pro:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '11')
+ 4 APPPATH\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('11')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('11')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 19:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:45:11 --> Cart Class Initialized
+ERROR - 2024-07-01 19:45:16 --> mysqli_sql_exception: Unknown column 'producto.deleted_at' in 'where clause' in C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '8')
+#6 C:\xampp\htdocs\Proyecto-Emilio\app\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('8')
+#7 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('8')
+#8 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#9 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Emilio\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-01 19:45:16 --> Unknown column 'producto.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`
+WHERE `producto`.`deleted_at` IS NULL
+AND `producto`.`ID_Pro` = :producto.ID_Pro:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '8')
+ 4 APPPATH\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('8')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('8')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-01 19:45:29 --> mysqli_sql_exception: Unknown column 'producto.deleted_at' in 'where clause' in C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '8')
+#6 C:\xampp\htdocs\Proyecto-Emilio\app\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('8')
+#7 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('8')
+#8 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#9 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Emilio\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-01 19:45:29 --> Unknown column 'producto.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`
+WHERE `producto`.`deleted_at` IS NULL
+AND `producto`.`ID_Pro` = :producto.ID_Pro:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '8')
+ 4 APPPATH\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('8')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('8')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 19:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:45:32 --> Cart Class Initialized
+INFO - 2024-07-01 19:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:45:35 --> Cart Class Initialized
+CRITICAL - 2024-07-01 19:45:37 --> unlink(C:\xampp\htdocs\Proyecto-Emilio\writable\debugbar/debugbar_1719862395.299550.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\Proyecto-Emilio\\writable\\debugbar/debugbar_1719862395.299550.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('FCPATH\\writable\\debugbar/debugbar_1719862395.299550.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1719863132.796387', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(350): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-01 19:45:39 --> mysqli_sql_exception: Unknown column 'producto.deleted_at' in 'where clause' in C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '5')
+#6 C:\xampp\htdocs\Proyecto-Emilio\app\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('5')
+#7 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('5')
+#8 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#9 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Emilio\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-01 19:45:39 --> Unknown column 'producto.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `producto`
+WHERE `producto`.`deleted_at` IS NULL
+AND `producto`.`ID_Pro` = :producto.ID_Pro:', [...], false)
+ 2 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '5')
+ 4 APPPATH\Controllers\Producto_controller.php(121): CodeIgniter\BaseModel->find('5')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('5')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 19:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:46:23 --> Cart Class Initialized
+INFO - 2024-07-01 19:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:46:26 --> Cart Class Initialized
+ERROR - 2024-07-01 19:46:35 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `product...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(453): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\Proyecto-Emilio\app\Controllers\Producto_controller.php(123): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('6')
+#8 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#9 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Emilio\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-01 19:46:35 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `producto` SET `active` = :active:, `updated_at` = :updated_at:
+WHERE `ID_Pro` IN :ID_Pro:
+AND `active` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(453): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Producto_controller.php(123): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->borrarProducto('6')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 19:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:46:55 --> Cart Class Initialized
+INFO - 2024-07-01 19:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:47:02 --> Cart Class Initialized
+INFO - 2024-07-01 19:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:47:06 --> Cart Class Initialized
+INFO - 2024-07-01 19:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:47:10 --> Cart Class Initialized
+INFO - 2024-07-01 19:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-01 19:53:23 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Producto_controller.php on line 86.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Producto_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Producto_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 19:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-01 19:53:45 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Producto_controller.php on line 86.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Producto_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Producto_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 19:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:54:00 --> Cart Class Initialized
+ERROR - 2024-07-01 19:54:16 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Proyecto-Emilio\app\Controllers\Producto_controller.php(76): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(934): App\Controllers\Producto_controller->agregarCategoria()
+#10 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#11 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Proyecto-Emilio\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-07-01 19:54:16 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `categoria` (`ct_nombre`, `ct_descripcion`, `fecha`, `updated_at`) VALUES (:ct_nombre:, :ct_descripcion:, :fecha:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Producto_controller.php(76): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->agregarCategoria()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 19:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:54:43 --> Cart Class Initialized
+INFO - 2024-07-01 19:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:56:19 --> Cart Class Initialized
+INFO - 2024-07-01 19:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 19:56:34 --> Cart Class Initialized
+INFO - 2024-07-01 20:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:03:33 --> Cart Class Initialized
+INFO - 2024-07-01 20:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:03:52 --> Cart Class Initialized
+INFO - 2024-07-01 20:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:03:56 --> Cart Class Initialized
+CRITICAL - 2024-07-01 20:03:57 --> Invalid file: "Views/Editar_Productos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/Editar_Productos.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Editar_Productos', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(89): view('Views/Editar_Productos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->editar('8')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:04:21 --> Cart Class Initialized
+INFO - 2024-07-01 20:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:05:31 --> Cart Class Initialized
+CRITICAL - 2024-07-01 20:05:31 --> Undefined variable $categorias
+in APPPATH\Views\Productos\Editar_Productos.php on line 41.
+ 1 APPPATH\Views\Productos\Editar_Productos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\Productos\\Editar_Productos.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Productos\\Editar_Productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Editar_Productos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(89): view('Views/Productos/Editar_Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->editar('8')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:07:00 --> Cart Class Initialized
+CRITICAL - 2024-07-01 20:07:00 --> Undefined array key ""
+in APPPATH\Views\Productos\Editar_Productos.php on line 23.
+ 1 APPPATH\Views\Productos\Editar_Productos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'APPPATH\\Views\\Productos\\Editar_Productos.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Productos\\Editar_Productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Editar_Productos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(89): view('Views/Productos/Editar_Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->editar('8')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:08:17 --> Cart Class Initialized
+CRITICAL - 2024-07-01 20:08:17 --> Undefined variable $categorias
+in APPPATH\Views\Productos\Editar_Productos.php on line 41.
+ 1 APPPATH\Views\Productos\Editar_Productos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\Productos\\Editar_Productos.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Productos\\Editar_Productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Editar_Productos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(89): view('Views/Productos/Editar_Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->editar('8')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:09:14 --> Cart Class Initialized
+INFO - 2024-07-01 20:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:10:53 --> Cart Class Initialized
+INFO - 2024-07-01 20:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:12:09 --> Cart Class Initialized
+CRITICAL - 2024-07-01 20:13:28 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Producto_controller.php on line 89.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->editar('8')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:13:46 --> Cart Class Initialized
+INFO - 2024-07-01 20:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:14:00 --> Cart Class Initialized
+INFO - 2024-07-01 20:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:14:05 --> Cart Class Initialized
+INFO - 2024-07-01 20:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:14:14 --> Cart Class Initialized
+CRITICAL - 2024-07-01 20:14:33 --> Call to undefined method App\Models\Producto_Model::upload
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Producto_controller.php(256): CodeIgniter\Model->__call('upload', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->actualizarProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-01 20:15:04 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Producto_controller.php(256): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->actualizarProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:15:10 --> Cart Class Initialized
+CRITICAL - 2024-07-01 20:15:13 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Producto_controller.php(256): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->actualizarProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-01 20:17:11 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Producto_controller.php(256): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->actualizarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:17:13 --> Cart Class Initialized
+CRITICAL - 2024-07-01 20:17:19 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Producto_controller.php(256): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->actualizarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-01 20:17:42 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Producto_controller.php(256): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->actualizarProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:17:44 --> Cart Class Initialized
+INFO - 2024-07-01 20:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:17:47 --> Cart Class Initialized
+INFO - 2024-07-01 20:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:17:51 --> Cart Class Initialized
+INFO - 2024-07-01 20:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:17:57 --> Cart Class Initialized
+INFO - 2024-07-01 20:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:18:00 --> Cart Class Initialized
+INFO - 2024-07-01 20:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:18:14 --> Cart Class Initialized
+INFO - 2024-07-01 20:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:19:56 --> Cart Class Initialized
+CRITICAL - 2024-07-01 20:20:01 --> "permit_empty" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('permit_empty')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('img', 'img', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Producto_controller.php(214): CodeIgniter\Controller->validate([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->actualizarProducto()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-01 20:20:13 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Producto_controller.php(257): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\assets\\upload', '1719865213_21bd259761f5b5a30c59')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->actualizarProducto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:20:36 --> Cart Class Initialized
+INFO - 2024-07-01 20:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:20:50 --> Cart Class Initialized
+INFO - 2024-07-01 20:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:21:03 --> Cart Class Initialized
+INFO - 2024-07-01 20:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:21:05 --> Cart Class Initialized
+INFO - 2024-07-01 20:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:22:16 --> Cart Class Initialized
+INFO - 2024-07-01 20:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:22:19 --> Cart Class Initialized
+INFO - 2024-07-01 20:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:23:07 --> Cart Class Initialized
+INFO - 2024-07-01 20:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:23:20 --> Cart Class Initialized
+INFO - 2024-07-01 20:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:24:10 --> Cart Class Initialized
+INFO - 2024-07-01 20:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:24:49 --> Cart Class Initialized
+INFO - 2024-07-01 20:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:25:12 --> Cart Class Initialized
+INFO - 2024-07-01 20:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:26:01 --> Cart Class Initialized
+INFO - 2024-07-01 20:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:26:54 --> Cart Class Initialized
+INFO - 2024-07-01 20:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:27:05 --> Cart Class Initialized
+INFO - 2024-07-01 20:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:27:46 --> Cart Class Initialized
+INFO - 2024-07-01 20:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:27:58 --> Cart Class Initialized
+INFO - 2024-07-01 20:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:28:22 --> Cart Class Initialized
+INFO - 2024-07-01 20:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:28:34 --> Cart Class Initialized
+INFO - 2024-07-01 20:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:32:29 --> Cart Class Initialized
+INFO - 2024-07-01 20:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:32:31 --> Cart Class Initialized
+CRITICAL - 2024-07-01 20:32:33 --> syntax error, unexpected token ","
+in APPPATH\Controllers\Usuario_crud_controller.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Usuario_crud_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Usuario_crud_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-01 20:33:24 --> Unclosed '[' on line 55 does not match ')'
+in APPPATH\Controllers\Usuario_crud_controller.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Usuario_crud_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Usuario_crud_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Usuario_crud_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Usuario_crud_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:42:54 --> Cart Class Initialized
+INFO - 2024-07-01 20:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:42:58 --> Cart Class Initialized
+INFO - 2024-07-01 20:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:42:59 --> Cart Class Initialized
+CRITICAL - 2024-07-01 20:43:00 --> Undefined variable $usuarios
+in APPPATH\Views\Usuario\Usuario_Crud.php on line 16.
+ 1 APPPATH\Views\Usuario\Usuario_Crud.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\Usuario\\Usuario_Crud.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Usuario\\Usuario_Crud.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Usuario/Usuario_Crud', [], true)
+ 5 APPPATH\Controllers\usuario_controller.php(15): view('Views/Usuario/Usuario_Crud')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:44:35 --> Cart Class Initialized
+CRITICAL - 2024-07-01 20:44:35 --> Undefined array key "id"
+in APPPATH\Views\Usuario\Usuario_Crud.php on line 18.
+ 1 APPPATH\Views\Usuario\Usuario_Crud.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Usuario\\Usuario_Crud.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Usuario\\Usuario_Crud.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Usuario/Usuario_Crud', [], true)
+ 5 APPPATH\Controllers\usuario_controller.php(17): view('Views/Usuario/Usuario_Crud', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:45:37 --> Cart Class Initialized
+CRITICAL - 2024-07-01 20:45:37 --> Undefined array key "id"
+in APPPATH\Views\Usuario\Usuario_Crud.php on line 24.
+ 1 APPPATH\Views\Usuario\Usuario_Crud.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Usuario\\Usuario_Crud.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Usuario\\Usuario_Crud.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Usuario/Usuario_Crud', [], true)
+ 5 APPPATH\Controllers\usuario_controller.php(17): view('Views/Usuario/Usuario_Crud', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:45:55 --> Cart Class Initialized
+INFO - 2024-07-01 20:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:47:28 --> Cart Class Initialized
+INFO - 2024-07-01 20:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:47:32 --> Cart Class Initialized
+ERROR - 2024-07-01 20:47:43 --> mysqli_sql_exception: Unknown column 'usuarios.deleted_at' in 'where clause' in C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Proyecto-Emilio\app\Controllers\usuario_controller.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+#8 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#9 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Emilio\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-01 20:47:43 --> Unknown column 'usuarios.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `usuarios`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\usuario_controller.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-01 20:47:58 --> mysqli_sql_exception: Unknown column 'usuarios.deleted_at' in 'where clause' in C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Proyecto-Emilio\app\Controllers\usuario_controller.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+#8 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#9 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Emilio\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-01 20:47:58 --> Unknown column 'usuarios.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `usuarios`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\usuario_controller.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:48:25 --> Cart Class Initialized
+ERROR - 2024-07-01 20:48:33 --> mysqli_sql_exception: Unknown column 'usuarios.deleted_at' in 'where clause' in C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Proyecto-Emilio\app\Controllers\usuario_controller.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+#8 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#9 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Emilio\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-01 20:48:34 --> Unknown column 'usuarios.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `usuarios`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\usuario_controller.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:48:45 --> Cart Class Initialized
+ERROR - 2024-07-01 20:48:59 --> mysqli_sql_exception: Unknown column 'usuarios.deleted_at' in 'where clause' in C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto-Emilio\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto-Emilio\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Proyecto-Emilio\app\Controllers\usuario_controller.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+#8 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#9 C:\xampp\htdocs\Proyecto-Emilio\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Emilio\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-01 20:48:59 --> Unknown column 'usuarios.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+WHERE `usuarios`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\usuario_controller.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 20:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:49:08 --> Cart Class Initialized
+INFO - 2024-07-01 20:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:49:36 --> Cart Class Initialized
+INFO - 2024-07-01 20:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:52:02 --> Cart Class Initialized
+INFO - 2024-07-01 20:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:57:07 --> Cart Class Initialized
+INFO - 2024-07-01 20:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:57:33 --> Cart Class Initialized
+INFO - 2024-07-01 20:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:58:00 --> Cart Class Initialized
+INFO - 2024-07-01 20:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 20:58:14 --> Cart Class Initialized
+INFO - 2024-07-01 21:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:12:04 --> Cart Class Initialized
+INFO - 2024-07-01 21:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:12:08 --> Cart Class Initialized
+INFO - 2024-07-01 21:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:12:24 --> Cart Class Initialized
+INFO - 2024-07-01 21:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:12:27 --> Cart Class Initialized
+INFO - 2024-07-01 21:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:13:05 --> Cart Class Initialized
+CRITICAL - 2024-07-01 21:13:05 --> Undefined variable $usuario
+in APPPATH\Views\Usuario\Edit_usuario.php on line 11.
+ 1 APPPATH\Views\Usuario\Edit_usuario.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'APPPATH\\Views\\Usuario\\Edit_usuario.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Usuario\\Edit_usuario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Usuario/Edit_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_controller.php(118): view('Views/Usuario/Edit_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 21:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:13:21 --> Cart Class Initialized
+CRITICAL - 2024-07-01 21:13:21 --> Undefined variable $validation
+in APPPATH\Views\Usuario\Edit_usuario.php on line 12.
+ 1 APPPATH\Views\Usuario\Edit_usuario.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Usuario\\Edit_usuario.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Usuario\\Edit_usuario.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Usuario/Edit_usuario', [], true)
+ 5 APPPATH\Controllers\usuario_controller.php(118): view('Views/Usuario/Edit_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 21:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:13:59 --> Cart Class Initialized
+CRITICAL - 2024-07-01 21:14:09 --> Undefined array key "nombre"
+in APPPATH\Controllers\usuario_controller.php on line 42.
+ 1 APPPATH\Controllers\usuario_controller.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Controllers\\usuario_controller.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->actualizarDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-01 21:15:58 --> Undefined array key "nombre"
+in APPPATH\Controllers\usuario_controller.php on line 42.
+ 1 APPPATH\Controllers\usuario_controller.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Controllers\\usuario_controller.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->actualizarDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-01 21:16:18 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\usuario_controller.php(42): CodeIgniter\Model->update('2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->actualizarDatos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-01 21:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:16:36 --> Cart Class Initialized
+INFO - 2024-07-01 21:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:16:43 --> Cart Class Initialized
+INFO - 2024-07-01 21:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:16:48 --> Cart Class Initialized
+INFO - 2024-07-01 21:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:17:33 --> Cart Class Initialized
+INFO - 2024-07-01 21:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:17:38 --> Cart Class Initialized
+INFO - 2024-07-01 21:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:17:44 --> Cart Class Initialized
+INFO - 2024-07-01 21:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-01 21:17:47 --> Cart Class Initialized

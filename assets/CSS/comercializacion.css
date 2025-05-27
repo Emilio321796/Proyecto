@@ -1,0 +1,99 @@
+/* Fondo blanco general */
+body {
+    background-color: #ffffff !important;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo general del contenedor */
+.payment-methods-container {
+    margin: 2rem auto;
+    max-width: 800px;
+    width: 90%;
+    text-align: center;
+}
+
+/* Título centrado */
+.payment-methods-container h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Lista de métodos de pago */
+.payment-methods-container ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.payment-methods-container ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.payment-methods-container ul li img {
+    margin-bottom: 5px;
+    height: 40px;
+}
+
+/* Estilos para acordeón */
+.accordion-button {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    box-shadow: none;
+    border-radius: 0.5rem !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e7f1ff;
+    color: #000;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+    overflow: hidden; /* Para redondear bordes del body también */
+}
+
+/* Redondeo del último acordeón */
+.accordion-item:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-body {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 1rem;
+    font-size: 1.7rem;
+}
+
+/* Asegura responsividad general */
+@media (max-width: 576px) {
+    .payment-methods-container {
+        width:105%;
+    }
+
+    .payment-methods-container ul {
+        flex-direction: column;
+    }
+
+    .accordion-button {
+        font-size: 1rem;
+    }
+}
+
+.animate__animated.animate__flipInX {
+  --animate-duration: 10s;
+}

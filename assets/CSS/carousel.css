@@ -1,0 +1,35 @@
+.carousel-item img{
+    width: 50%;
+    max-height: 500px;
+    object-fit:contain;
+}
+
+.carousel-item {
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out; /* Ajusta la duración (0.8s) y la función de tiempo (ease-in-out) */
+}
+
+.carousel-item.active.carousel-item-start,
+.carousel-item.active.carousel-item-end {
+    transform: translateX(0);
+}
+
+.carousel-item-next,
+.carousel-item-prev {
+    transform: translateX(100%); /* o -100% según la dirección */
+}
+
+.carousel-item-prev.active,
+.carousel-item-next.active {
+    transform: translateX(0);
+}
+ 
+  .carousel,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item img {
+    height: 100vh; /* 100% del alto de la ventana */
+    object-fit: cover; /* Las imágenes se ajustan sin deformarse */
+  }
+  button {
+    transition: background-color 0.3s ease-in-out;
+  }

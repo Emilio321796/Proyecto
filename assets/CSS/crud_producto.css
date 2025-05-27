@@ -1,0 +1,81 @@
+/* Títulos */
+.card-title {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* Formularios */
+.form-label {
+    font-weight: 500;
+    color: #34495e;
+}
+
+/* Inputs */
+input.form-control, select.form-select {
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease;
+}
+
+input.form-control:focus, select.form-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Botones */
+.btn {
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.btn-warning, .btn-danger {
+    color: white;
+}
+
+/* Tabla */
+.table {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #212529;
+    color: white;
+    font-weight: 600;
+}
+
+.table tbody td {
+    vertical-align: middle;
+}
+
+/* Imágenes en la tabla */
+.table img {
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Modal */
+.modal-content {
+    border-radius: 0.75rem;
+    border: none;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-body {
+    font-weight: 500;
+    color: #495057;
+}

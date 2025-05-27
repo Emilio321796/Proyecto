@@ -1,0 +1,133 @@
+html, body {
+    height: 100%; /* Asegura que html y body ocupen toda la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+    color: #050505 !important;
+    margin: 0; /* Asegúrate de eliminar los márgenes predeterminados */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el body tenga al menos la altura de la ventana */
+}
+
+main {
+    flex: 1 0 auto; /* Permite que el main crezca y ocupe el espacio restante */
+    padding-bottom: tu-altura-del-footer; /* Importante: añade un padding inferior igual a la altura de tu footer */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+.footer {
+    /* Tus estilos existentes para el footer */
+    background-color: rgb(138, 138, 95) !important;
+    color: #050505 !important;
+    box-sizing: border-box !important;
+    width: 100%;
+    flex-shrink: 0; 
+    margin-bottom: 0px;
+}
+
+.foo-container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+/* ... tus otros estilos del footer ... */
+
+.footer-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas de igual ancho */
+    gap: 80px; /* Espacio entre las columnas */
+    align-items: start; /* Alinea los elementos al inicio de cada celda */
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(20, 17, 17);
+    text-align: left; /* Alinea el título a la izquierda dentro de su columna */
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    text-align: left; /* Alinea la lista a la izquierda dentro de su columna */
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #0b0a0a !important ;
+    font-size: 16px;
+}
+
+.footer-links ul li a:hover {
+    color: #007bff;
+}
+
+.social-links ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left; /* Asegúrate de que los iconos no estén centrados */
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.social-links a {
+    font-size: 20px;
+    color: #030202 !important;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 10px 0;
+    }
+
+    .footer-row {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, 2 columnas */
+        gap: 10px;
+    }
+
+    .footer-links ul li a {
+        font-size: 14px;
+    }
+}
+
+
+.footer > div[style="text-align: center; margin-top: 20px;"] {
+    grid-column: 1 / -1; /* Ocupa todo el ancho en el grid */
+    text-align: center; /* Mantiene el centrado de la línea de copyright */
+}
+
+/*
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer.footer {
+    margin-top: auto;
+    background-color: black; /* Ajusta al color que prefieras */
+/*    padding: 20px 0;
+      border-top: 1px solid #ddd;
+}
+*/
