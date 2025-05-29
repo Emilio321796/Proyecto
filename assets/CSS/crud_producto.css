@@ -24,22 +24,54 @@ input.form-control:focus, select.form-select:focus {
 
 /* Botones */
 .btn {
-    border-radius: 0.5rem;
-    transition: all 0.3s ease;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
 
+/* Botón verde (éxito) */
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
 .btn-success:hover {
     background-color: #218838;
-    border-color: #1e7e34;
 }
 
+/* Botón gris (secundario) */
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
 .btn-secondary:hover {
     background-color: #5a6268;
-    border-color: #545b62;
 }
 
-.btn-warning, .btn-danger {
+/* Botón amarillo (advertencia) */
+.btn-warning {
+    background-color: #ffc107;
+    color: black;
+}
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+/* Botón rojo (peligro) */
+.btn-danger {
+    background-color: #dc3545;
     color: white;
+}
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-sm {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.85rem;
+    border-radius: 0.25rem;
 }
 
 /* Tabla */

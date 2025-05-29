@@ -109,7 +109,7 @@ $logged = $session->get('logged_in');
 
 
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('Productos'); ?>">Productos</a>
+                        <a class="nav-link" href="<?php echo base_url('Productos2'); ?>">Productos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('quienessomos'); ?>" tabindex="-1" aria-disabled="true">¿Quienes somos?</a>

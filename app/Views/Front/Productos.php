@@ -76,8 +76,9 @@
                                      <img class="card-img" src="<?php echo $imagen_src; ?>" alt="Imagen de <?php echo $prod['Nombre'] ?? 'producto'; ?>">
                                         <div class="card-body">
                                          <p class="text-capitalize text-center"><?php echo $prod['Nombre'] ?? 'Nombre del Producto'; ?></p>
+                                       
 
-                                            <?php if(session()->get('id_Perfil') === '2'): ?>
+                                            <?php if(session()->get('perfil_id') == 2): ?>
                                             <div class="group d-flex justify-content-center">
                                               <?php
                                               echo form_open('carrito_agrega');
@@ -114,4 +115,3 @@
         </div>
     </div>
 </body>
-

@@ -81,15 +81,23 @@ class Producto_controller extends Controller
         }
     }
 
-    public function editar($id = null){
-        $producto = new Producto_Model();
-        $categorias = new Categoria_model(); 
-        $data['producto'] = $producto->find($id);
-        $data['categorias'] = $categorias->withDeleted()->findAll();
-        echo view('Views/Front/nav-view');
-        echo view('Views/Productos/Editar_Productos', $data);
-        echo view('Views/Front/end-view');
+   public function editar($id = null){
+    $producto = new Producto_Model();
+    $categorias = new Categoria_model(); 
+    $data['producto'] = $producto->find($id);
+    $data['categorias'] = $categorias->withDeleted()->findAll();
+
+    if ($data['producto'] === null) {
+        // Producto no encontrado, podés redirigir o mostrar error
+        return redirect()->to(base_url('Crud_Producto'))->with('error', 'Producto no encontrado.');
+
+    } 
+
+    echo view('Views/Front/nav-view');
+    echo view('Views/Productos/Editar_Productos', $data);
+    echo view('Views/Front/end-view');
     }
+
     
 
     public function cargarNuevoProducto()

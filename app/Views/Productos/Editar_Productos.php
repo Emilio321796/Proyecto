@@ -73,7 +73,7 @@
                 <form class="form" action="<?php echo base_url('/editar-prod'); ?>" method="POST" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="Precio">Precio</label>
-                        <input type="number" name="Precio" id="Precio" class="form-control" value="<?php echo $producto['Precio'] ?>">
+                        <input type="number" name="Precio" id="Precio" class="form-control" value="<?= $producto['Precio'] ?? '' ?>">
                     </div>
                     <div class="form-group">
                         <label for="Precio_final">Precio Final</label>

@@ -26,9 +26,9 @@ class Ventascontroller extends Controller
         $cart = \Config\Services::cart();
         $data['cart'] = $cart->contents();
 
-        echo view('Views/Front/nav-view');
-        echo view('Views/ventas/carrito', $data);
-        echo view('Views/Front/end-view');
+        echo view('Front/nav-view');
+        echo view('Ventas/Mostrar_Ventas', $data);
+        echo view('Front/end-view');
     }
 
     // Actualizar carrito
@@ -37,14 +37,16 @@ class Ventascontroller extends Controller
         $cart = \Config\Services::cart();
         $data = $this->request->getPost('cart');
 
-        foreach ($data as $item) {
-            $cart->update([
-                'rowid' => $item['rowid'],
-                'qty'   => $item['qty']
-            ]);
-        }
+        if (is_array($data) && count($data) > 0) {
+            foreach ($data as $item) {
+                $cart->update([
+                    'rowid' => $item['rowid'],
+                    'qty'   => $item['qty']
+                ]);
+            }
+             }
 
-        return redirect()->to('Views/Ventas/Mostrar_Ventas');
+        return redirect()->to('Ventas/Mostrar_Ventas');
     }
 
     // Eliminar un producto del carrito
@@ -53,7 +55,7 @@ class Ventascontroller extends Controller
         $cart = \Config\Services::cart();
         $cart->remove($rowid);
 
-        return redirect()->to('/ventas/carrito');
+        return redirect()->to('/Ventas/Mostrar_Ventas');
     }
 
     // Borrar todo el carrito
@@ -62,7 +64,7 @@ class Ventascontroller extends Controller
         $cart = \Config\Services::cart();
         $cart->destroy();
 
-        return redirect()->to('/ventas/carrito');
+        return redirect()->to('/Ventas/Mostrar_Ventas');
     }
 
     // Procesar la compra
@@ -91,11 +93,11 @@ class Ventascontroller extends Controller
         $cart->destroy();
 
         session()->setFlashdata('mensaje', 'Compra realizada con éxito');
-        return redirect()->to('/ventas/carrito');
+        return redirect()->to('/Ventas/Mostrar_Ventas');
     }
 
    public function registrar_venta()
-{
+   {
     $cart = \Config\Services::cart();
     $session = session();
 
@@ -112,23 +114,25 @@ class Ventascontroller extends Controller
     $ventaDetalleModel  = new \App\Models\Ventas_detalle_model();
 
     // Insertar venta cabecera
-    $cabecera = [
-        'id_Cliente'   => $session->get('cliente_id'), // Asegurate de tener esto en la sesión
-        'fecha'        => date('Y-m-d H:i:s'),
-        'usuario_id'   => $session->get('usuario_id'), // Asegurate también de esto
-        'total_venta'  => $cart->total()
-    ];
+   $usuarioId = $session->get('usuario_id'); // este debe existir en sesión
+
+   $cabecera = [
+    'fecha'       => date('Y-m-d'),
+    'usuario_id'  => $usuarioId,
+    'total_venta' => $cart->total()
+   ];
+
 
     $ventaCabeceraModel->insert($cabecera);
     $idVentaCabecera = $ventaCabeceraModel->insertID();
 
     // Insertar cada producto como detalle
     foreach ($carrito as $item) {
-        $detalle = [
-            'id_ventaCab' => $idVentaCabecera,
-            'pd_id'       => $item['id'],
+       $detalle = [
+            'venta_id'    => $idVentaCabecera,
+            'producto_id' => $item['id'],
             'cantidad'    => $item['qty'],
-            'precio'      => $item['price']
+            'Precio'      => $item['price']
         ];
         $ventaDetalleModel->insert($detalle);
     }
@@ -137,8 +141,6 @@ class Ventascontroller extends Controller
     $cart->destroy();
 
     // Redirigir con mensaje
-    return redirect()->to(base_url('ventas'))->with('mensaje', '¡Venta registrada exitosamente!');
-}
-
-
+    return redirect()->to(base_url('/Ventas/Mostrar_Ventas'))->with('mensaje', '¡Venta registrada exitosamente!');
+  }
 }

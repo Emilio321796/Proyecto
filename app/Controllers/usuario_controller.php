@@ -20,14 +20,23 @@ $data['usuarios'] = $usuarios->findAll();
     }
 
 
-    public function create() {
-        
-         $dato['titulo']='Registro'; 
-        
-         echo view('Front/nav-view');
-         echo view('Registrar');
-         echo view('Front/end-view');
- }
+   public function registrar()
+{
+    $request = \Config\Services::request();
+    $data = [
+        'Nombre'    => $request->getPost('Nombre'),
+        'Usuario'   => $request->getPost('Usuario'),
+        'Email'     => $request->getPost('Email'),
+        'Password'  => password_hash($request->getPost('Password'), PASSWORD_DEFAULT),
+        'id_Perfil' => 2
+    ];
+
+    $model = new \App\Models\usuario_model();  // o como se llame tu modelo
+    $model->insert($data);
+
+    return redirect()->to('/')->with('msg', 'Registro exitoso');
+}
+
 
  public function actualizarDatos()
  {

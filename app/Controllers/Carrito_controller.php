@@ -6,7 +6,9 @@ use App\models\actualizar_carrito;
 use App\models\remmove;
 use App\models\muestra;
 use App\models\borrarCarrito;
-
+use App\models\sumar;
+use App\models\restar;
+use App\models\comprar;
 
 class Carrito_controller extends BaseController{
 
@@ -88,7 +90,93 @@ class Carrito_controller extends BaseController{
   public function borrarCarrito() {
     $cart = \Config\Services::cart();
     $cart->destroy();
-    return redirect()->to('/carrito')->with('mensaje', 'Carrito borrado exitosamente');
+    return redirect()->to('/carrito')->with('carrito_vacio', 'Carrito borrado exitosamente');
   }
+
+  public function sumar($rowid)
+{
+    $cart = \Config\Services::cart();
+    $item = $cart->getItem($rowid);
+
+    if ($item) {
+        $cart->update([
+            'rowid' => $rowid,
+            'qty'   => $item['qty'] + 1
+        ]);
+    }
+
+    return redirect()->back();
+}
+
+public function restar($rowid)
+{
+    $cart = \Config\Services::cart();
+    $item = $cart->getItem($rowid);
+
+    if ($item && $item['qty'] > 1) {
+        $cart->update([
+            'rowid' => $rowid,
+            'qty'   => $item['qty'] - 1
+        ]);
+    } elseif ($item) {
+        $cart->remove($rowid);
+    }
+
+    return redirect()->back();
+}
+
+public function comprar()
+{
+    $cart = \Config\Services::cart();
+    $cartItems = $cart->contents();
+
+    if (empty($cartItems)) {
+        return redirect()->to('/carrito')->with('mensaje', 'El carrito está vacío');
+    }
+
+    // Cargar modelos
+    $ventasCabeceraModel = new \App\Models\Ventas_cabecera_model();
+    $ventasDetalleModel = new \App\Models\Ventas_detalle_model();
+
+    // Obtener datos de sesión del usuario
+    $session = session();
+    $cliente = $session->get('nombre') ?? 'Invitado';
+
+    // Calcular total
+    $total = 0;
+    foreach ($cartItems as $item) {
+        $total += $item['price'] * $item['qty'];
+    }
+
+    // Guardar cabecera
+    $cabeceraData = [
+        'fecha'       => date('Y-m-d H:i:s'),
+        'usuario_id'  => $session->get('id_usuario'),
+        'total_venta' => $total
+    ];
+    $ventasCabeceraModel->insert($cabeceraData);
+    $ventaId = $ventasCabeceraModel->insertID();
+
+    // Guardar detalles
+    foreach ($cartItems as $item) {
+        $detalleData = [
+            'venta_id' => $ventaId,
+            'producto_id' => $item['name'],
+            'cantidad' => $item['qty'],
+            'Precio'   => $item['price'],
+            'subtotal' => $item['price'] * $item['qty']
+        ];
+        $ventasDetalleModel->insert($detalleData);
+    }
+
+    // Vaciar el carrito
+    $cart->destroy();
+
+    // Redirigir con mensaje de éxito
+    return redirect()->to('/carrito')->with('compra_exitosa', '¡Gracias por su compra!');
+
+}
+
+
 
 }

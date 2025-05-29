@@ -100,14 +100,24 @@
                                 <td>$<?= number_format($producto['Precio_final'], 2) ?></td>
                                 <td><?= esc($producto['Stock']) ?></td>
                                 <td>
-                                    <div class="btn-group">
-                                        <a class="btn btn-warning btn-sm" href="<?= base_url('editarProd/' . $producto['ID_Pro']) ?>"><i class="bi bi-pencil-square"></i></a>
-                                        <?php if ($producto['active'] == 1): ?>
-                                            <a class="btn btn-success btn-sm" href="<?= base_url('darAltaProducto/' . $producto['ID_Pro']) ?>"><i class="bi bi-toggle-on"></i></a>
-                                        <?php else: ?>
-                                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#eliminaModal" data-producto-id="<?= $producto['ID_Pro'] ?>"><i class="bi bi-trash"></i></button>
-                                        <?php endif; ?>
-                                    </div>
+                                   <div class="btn-group">
+    <!-- Botón editar -->
+    <a class="btn btn-warning btn-sm" href="<?= base_url('editarProd/' . $producto['ID_Pro']) ?>" title="Editar">
+        <i class="bi bi-pencil-square"></i>
+    </a>
+
+    <!-- Botón de alta/baja -->
+    <?php if ($producto['active'] == 1): ?>
+        <a class="btn btn-success btn-sm" href="<?= base_url('darAltaProducto/' . $producto['ID_Pro']) ?>" title="Activo">
+            <i class="bi bi-toggle-on"></i>
+        </a>
+    <?php else: ?>
+        <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#eliminaModal" data-producto-id="<?= $producto['ID_Pro'] ?>" title="Eliminar">
+            <i class="bi bi-trash"></i>
+        </button>
+    <?php endif; ?>
+</div>
+
                                 </td>
                             </tr>
                         <?php endforeach; ?>

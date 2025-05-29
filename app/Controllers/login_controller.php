@@ -5,16 +5,20 @@ use App\Models\usuario_Model;
   
 class login_controller extends BaseController
 {
-    public function index()
-    {
-        helper(['form','url']);
-      
-        $dato['titulo']='login'; 
-        echo view('Front/head_view',$dato);
-        echo view('Front/navbar_view');
-        echo view('Front/Login');
-        echo view('Front/end-view');
-    } 
+   public function index()
+{
+    helper(['form','url']);
+
+    $data = [
+        'titulo' => 'login',
+        'validation' => \Config\Services::validation()
+    ];
+
+    echo view('Front/nav-view');
+    echo view('Front/Login', $data); // Pasás $data acá
+    echo view('Front/end-view');
+}
+
   
     public function auth()
     {

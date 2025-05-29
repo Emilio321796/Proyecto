@@ -1,14 +1,12 @@
-<!-- Modal de Registro -->
-<?= view('Registrar') ?>
 
-  <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content">
-        <form action="<?= base_url('Crear') ?>" method="post" class="needs-validation" novalidate>
-          <div class="modal-header bg-dark text-white">
-            <h5 class="modal-title" id="registerModalLabel">Acreditate</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-          </div>
+
+
+<div class="modal-content bg-dark text-white">
+  <form action="<?= base_url('Crear') ?>" method="post" class="needs-validation" novalidate>
+    <div class="modal-header bg-dark text-white">
+      <h5 class="modal-title" id="registerModalLabel">Acreditate</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+    </div>
 
           <div class="modal-body">
             <div class="row g-3">
@@ -46,8 +44,18 @@
           </div>
         </form>
       </div>
-    </div>
-  </div>
+   
 
-  <script src="<?= base_url('assets/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+  <!-- Bootstrap JS y tu script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // Este script debe ir después del HTML para que el botón ya exista en el DOM
+  document.getElementById('btnRegistrate').addEventListener('click', function () {
+    var modal = new bootstrap.Modal(document.getElementById('registerModal'));
+    modal.show();
+  });
+</script>
 </body>
+
+

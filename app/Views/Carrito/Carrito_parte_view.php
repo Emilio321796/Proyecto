@@ -102,7 +102,18 @@
                             <td><?= $i++ ?></td>
                             <td><?= $item['name'] ?></td>
                             <td>$<?= number_format($item['price'], 2) ?></td>
-                            <td><?= $item['qty'] ?></td>
+                            <td>
+                              <div class="d-flex justify-content-center align-items-center gap-2">
+                                <!-- Botón Restar -->
+                                <a href="<?= base_url('carrito/restar/' . $item['rowid']) ?>" class="btn btn-sm btn-outline-light px-2">−</a>
+
+                                <!-- Cantidad actual -->
+                                <span><?= $item['qty'] ?></span>
+
+                                <!-- Botón Sumar -->
+                                <a href="<?= base_url('carrito/sumar/' . $item['rowid']) ?>" class="btn btn-sm btn-outline-light px-2">+</a>
+                              </div>
+                            </td>
                             <td>$<?= number_format($subtotal, 2) ?></td>
                            <td>
                                 <?php $path = '<img src=' . base_url('assets/img/carrito.jpg') . ' width="35px" height="30px">';

@@ -1,0 +1,1501 @@
+INFO - 2025-05-28 00:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:03:35 --> Cart Class Initialized
+INFO - 2025-05-28 00:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:03:38 --> Cart Class Initialized
+INFO - 2025-05-28 00:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:03:47 --> Cart Class Initialized
+INFO - 2025-05-28 00:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:03:49 --> Cart Class Initialized
+INFO - 2025-05-28 00:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:12:22 --> Cart Class Initialized
+INFO - 2025-05-28 00:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:14:39 --> Cart Class Initialized
+INFO - 2025-05-28 00:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:14:47 --> Cart Class Initialized
+INFO - 2025-05-28 00:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:15:58 --> Cart Class Initialized
+INFO - 2025-05-28 00:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:16:51 --> Cart Class Initialized
+CRITICAL - 2025-05-28 00:16:51 --> syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH\Views\Front\Productos.php on line 100.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Front/Productos', [], true)
+ 3 APPPATH\Controllers\Producto_controller.php(25): view('Views/Front/Productos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-28 00:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:08 --> Cart Class Initialized
+INFO - 2025-05-28 00:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:15 --> Cart Class Initialized
+INFO - 2025-05-28 00:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:15 --> Cart Class Initialized
+INFO - 2025-05-28 00:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:17 --> Cart Class Initialized
+INFO - 2025-05-28 00:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:17 --> Cart Class Initialized
+INFO - 2025-05-28 00:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:18 --> Cart Class Initialized
+INFO - 2025-05-28 00:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:19 --> Cart Class Initialized
+INFO - 2025-05-28 00:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:20 --> Cart Class Initialized
+INFO - 2025-05-28 00:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:25 --> Cart Class Initialized
+INFO - 2025-05-28 00:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:28 --> Cart Class Initialized
+INFO - 2025-05-28 00:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:35 --> Cart Class Initialized
+INFO - 2025-05-28 00:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:38 --> Cart Class Initialized
+INFO - 2025-05-28 00:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:40 --> Cart Class Initialized
+INFO - 2025-05-28 00:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:21:41 --> Cart Class Initialized
+INFO - 2025-05-28 00:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:24:14 --> Cart Class Initialized
+INFO - 2025-05-28 00:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:24:16 --> Cart Class Initialized
+INFO - 2025-05-28 00:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:25:35 --> Cart Class Initialized
+INFO - 2025-05-28 00:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:25:37 --> Cart Class Initialized
+INFO - 2025-05-28 00:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:26:04 --> Cart Class Initialized
+INFO - 2025-05-28 00:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:26:06 --> Cart Class Initialized
+INFO - 2025-05-28 00:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:26:08 --> Cart Class Initialized
+INFO - 2025-05-28 00:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:26:15 --> Cart Class Initialized
+INFO - 2025-05-28 00:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:26:17 --> Cart Class Initialized
+INFO - 2025-05-28 00:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:26:19 --> Cart Class Initialized
+INFO - 2025-05-28 00:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:26:48 --> Cart Class Initialized
+INFO - 2025-05-28 00:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:27:10 --> Cart Class Initialized
+INFO - 2025-05-28 00:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:27:25 --> Cart Class Initialized
+INFO - 2025-05-28 00:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:27:27 --> Cart Class Initialized
+INFO - 2025-05-28 00:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:27:37 --> Cart Class Initialized
+INFO - 2025-05-28 00:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:27:40 --> Cart Class Initialized
+INFO - 2025-05-28 00:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:28:00 --> Cart Class Initialized
+INFO - 2025-05-28 00:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 00:28:12 --> Cart Class Initialized
+INFO - 2025-05-28 01:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:04:26 --> Cart Class Initialized
+INFO - 2025-05-28 01:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:04:31 --> Cart Class Initialized
+INFO - 2025-05-28 01:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:04:34 --> Cart Class Initialized
+INFO - 2025-05-28 01:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:04:35 --> Cart Class Initialized
+INFO - 2025-05-28 01:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:04:36 --> Cart Class Initialized
+INFO - 2025-05-28 01:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:04:36 --> Cart Class Initialized
+INFO - 2025-05-28 01:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:04:36 --> Cart Class Initialized
+INFO - 2025-05-28 01:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:04:37 --> Cart Class Initialized
+INFO - 2025-05-28 01:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:04:37 --> Cart Class Initialized
+INFO - 2025-05-28 01:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:04:38 --> Cart Class Initialized
+INFO - 2025-05-28 01:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:04:38 --> Cart Class Initialized
+INFO - 2025-05-28 01:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:04:39 --> Cart Class Initialized
+INFO - 2025-05-28 01:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:11:27 --> Cart Class Initialized
+INFO - 2025-05-28 01:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:11:32 --> Cart Class Initialized
+INFO - 2025-05-28 01:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:11:46 --> Cart Class Initialized
+INFO - 2025-05-28 01:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:12:52 --> Cart Class Initialized
+INFO - 2025-05-28 01:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:14:04 --> Cart Class Initialized
+INFO - 2025-05-28 01:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:14:50 --> Cart Class Initialized
+INFO - 2025-05-28 01:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:14:52 --> Cart Class Initialized
+INFO - 2025-05-28 01:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:14:52 --> Cart Class Initialized
+INFO - 2025-05-28 01:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:14:54 --> Cart Class Initialized
+INFO - 2025-05-28 01:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:14:54 --> Cart Class Initialized
+INFO - 2025-05-28 01:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:14:56 --> Cart Class Initialized
+INFO - 2025-05-28 01:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:14:56 --> Cart Class Initialized
+INFO - 2025-05-28 01:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:14:57 --> Cart Class Initialized
+INFO - 2025-05-28 01:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:14:57 --> Cart Class Initialized
+INFO - 2025-05-28 01:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:14:58 --> Cart Class Initialized
+INFO - 2025-05-28 01:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:14:58 --> Cart Class Initialized
+INFO - 2025-05-28 01:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:14:59 --> Cart Class Initialized
+INFO - 2025-05-28 01:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:14:59 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:00 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:00 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:01 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:01 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:01 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:02 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:02 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:02 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:03 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:03 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:04 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:04 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:06 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:06 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:07 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:07 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:07 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:07 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:08 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:08 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:09 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:09 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:09 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:10 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:10 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:10 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:11 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:12 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:14 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:22 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:32 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:33 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:35 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:35 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:36 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:36 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:38 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:39 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:41 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:41 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:45 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:45 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:48 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:48 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:50 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:54 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:54 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:55 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:55 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:56 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:56 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:56 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:56 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:57 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:57 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:57 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:57 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:58 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:58 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:59 --> Cart Class Initialized
+INFO - 2025-05-28 01:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:15:59 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:00 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:00 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:00 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:00 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:00 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:00 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:01 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:01 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:01 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:01 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:02 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:02 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:03 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:03 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:03 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:03 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:03 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:04 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:07 --> Cart Class Initialized
+INFO - 2025-05-28 01:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:16:07 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:44 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:45 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:45 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:46 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:46 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:47 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:47 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:48 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:49 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:49 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:52 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:54 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:55 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:55 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:56 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:56 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:57 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:57 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:17:58 --> Cart Class Initialized
+INFO - 2025-05-28 01:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:18:00 --> Cart Class Initialized
+INFO - 2025-05-28 01:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:18:00 --> Cart Class Initialized
+INFO - 2025-05-28 01:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:18:03 --> Cart Class Initialized
+INFO - 2025-05-28 01:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:20:01 --> Cart Class Initialized
+INFO - 2025-05-28 01:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:20:01 --> Cart Class Initialized
+INFO - 2025-05-28 01:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:20:02 --> Cart Class Initialized
+INFO - 2025-05-28 01:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:20:02 --> Cart Class Initialized
+INFO - 2025-05-28 01:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:20:03 --> Cart Class Initialized
+INFO - 2025-05-28 01:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:20:03 --> Cart Class Initialized
+INFO - 2025-05-28 01:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:20:57 --> Cart Class Initialized
+INFO - 2025-05-28 01:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:20:59 --> Cart Class Initialized
+INFO - 2025-05-28 01:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:21:06 --> Cart Class Initialized
+INFO - 2025-05-28 01:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:22:56 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:00 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:18 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:20 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:22 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:22 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:23 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:23 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:53 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:54 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:54 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:55 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:55 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:56 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:56 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:56 --> Cart Class Initialized
+INFO - 2025-05-28 01:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:23:57 --> Cart Class Initialized
+INFO - 2025-05-28 01:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:24:00 --> Cart Class Initialized
+INFO - 2025-05-28 01:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:25:43 --> Cart Class Initialized
+INFO - 2025-05-28 01:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:25:55 --> Cart Class Initialized
+INFO - 2025-05-28 01:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:25:55 --> Cart Class Initialized
+INFO - 2025-05-28 01:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:25:57 --> Cart Class Initialized
+INFO - 2025-05-28 01:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:25:57 --> Cart Class Initialized
+INFO - 2025-05-28 01:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:25:59 --> Cart Class Initialized
+INFO - 2025-05-28 01:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:25:59 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:01 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:03 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:03 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:04 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:04 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:05 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:05 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:05 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:06 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:06 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:07 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:08 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:52 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:53 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:53 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:55 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:55 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:57 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:57 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:59 --> Cart Class Initialized
+INFO - 2025-05-28 01:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:26:59 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:00 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:00 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:01 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:04 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:04 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:05 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:05 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:06 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:06 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:07 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:07 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:08 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:08 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:08 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:09 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:10 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:10 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:11 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:11 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:13 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:15 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:18 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:19 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:19 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:20 --> Cart Class Initialized
+INFO - 2025-05-28 01:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:27:22 --> Cart Class Initialized
+INFO - 2025-05-28 01:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:30:43 --> Cart Class Initialized
+INFO - 2025-05-28 01:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:30:45 --> Cart Class Initialized
+INFO - 2025-05-28 01:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:30:46 --> Cart Class Initialized
+INFO - 2025-05-28 01:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:30:46 --> Cart Class Initialized
+INFO - 2025-05-28 01:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:30:47 --> Cart Class Initialized
+INFO - 2025-05-28 01:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:30:47 --> Cart Class Initialized
+INFO - 2025-05-28 01:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:30:48 --> Cart Class Initialized
+INFO - 2025-05-28 01:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:30:48 --> Cart Class Initialized
+INFO - 2025-05-28 01:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:30:49 --> Cart Class Initialized
+INFO - 2025-05-28 01:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:30:50 --> Cart Class Initialized
+INFO - 2025-05-28 01:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:35:05 --> Cart Class Initialized
+INFO - 2025-05-28 01:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:35:49 --> Cart Class Initialized
+INFO - 2025-05-28 01:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:35:50 --> Cart Class Initialized
+INFO - 2025-05-28 01:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:35:50 --> Cart Class Initialized
+INFO - 2025-05-28 01:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:35:51 --> Cart Class Initialized
+INFO - 2025-05-28 01:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:35:51 --> Cart Class Initialized
+INFO - 2025-05-28 01:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:36:11 --> Cart Class Initialized
+INFO - 2025-05-28 01:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:36:13 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:13 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:15 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:16 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:16 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:17 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:17 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:18 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:19 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:32 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:34 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:35 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:35 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:36 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:36 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:38 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:38 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:39 --> Cart Class Initialized
+INFO - 2025-05-28 01:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:37:40 --> Cart Class Initialized
+INFO - 2025-05-28 01:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:38:10 --> Cart Class Initialized
+INFO - 2025-05-28 01:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:38:11 --> Cart Class Initialized
+INFO - 2025-05-28 01:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:38:12 --> Cart Class Initialized
+INFO - 2025-05-28 01:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:38:12 --> Cart Class Initialized
+INFO - 2025-05-28 01:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:38:13 --> Cart Class Initialized
+INFO - 2025-05-28 01:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:38:13 --> Cart Class Initialized
+INFO - 2025-05-28 01:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:38:14 --> Cart Class Initialized
+INFO - 2025-05-28 01:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:38:14 --> Cart Class Initialized
+INFO - 2025-05-28 01:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:38:15 --> Cart Class Initialized
+INFO - 2025-05-28 01:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:38:17 --> Cart Class Initialized
+INFO - 2025-05-28 01:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:38:17 --> Cart Class Initialized
+INFO - 2025-05-28 01:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:38:31 --> Cart Class Initialized
+INFO - 2025-05-28 01:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:38:56 --> Cart Class Initialized
+INFO - 2025-05-28 01:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:39:21 --> Cart Class Initialized
+INFO - 2025-05-28 01:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:39:32 --> Cart Class Initialized
+INFO - 2025-05-28 01:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:39:34 --> Cart Class Initialized
+INFO - 2025-05-28 01:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:39:37 --> Cart Class Initialized
+INFO - 2025-05-28 01:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:39:46 --> Cart Class Initialized
+INFO - 2025-05-28 01:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:39:51 --> Cart Class Initialized
+CRITICAL - 2025-05-28 01:39:51 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Ventascontroller.php on line 40.
+ 1 APPPATH\Controllers\Ventascontroller.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Ventascontroller.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->actualizar_carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-28 01:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:53:54 --> Cart Class Initialized
+INFO - 2025-05-28 01:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:53:58 --> Cart Class Initialized
+INFO - 2025-05-28 01:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:54:19 --> Cart Class Initialized
+CRITICAL - 2025-05-28 01:54:19 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Ventascontroller.php on line 40.
+ 1 APPPATH\Controllers\Ventascontroller.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Ventascontroller.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->actualizar_carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-28 01:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 01:56:21 --> syntax error, unexpected '$data' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Ventascontroller.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Ventascontroller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ventascontroller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ventascontroller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Ventascontroller')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Ventascontroller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-28 01:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:58:39 --> Cart Class Initialized
+INFO - 2025-05-28 01:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:59:40 --> Cart Class Initialized
+INFO - 2025-05-28 01:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 01:59:42 --> Cart Class Initialized
+INFO - 2025-05-28 02:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:01:00 --> Cart Class Initialized
+INFO - 2025-05-28 02:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:01:01 --> Cart Class Initialized
+INFO - 2025-05-28 02:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:06:27 --> Cart Class Initialized
+INFO - 2025-05-28 02:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:06:28 --> Cart Class Initialized
+CRITICAL - 2025-05-28 02:06:28 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Ventascontroller.php on line 40.
+ 1 APPPATH\Controllers\Ventascontroller.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Ventascontroller.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->actualizar_carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-28 02:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:07:39 --> Cart Class Initialized
+INFO - 2025-05-28 02:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:09:03 --> Cart Class Initialized
+INFO - 2025-05-28 02:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:09:05 --> Cart Class Initialized
+INFO - 2025-05-28 02:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:09:09 --> Cart Class Initialized
+INFO - 2025-05-28 02:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:09:19 --> Cart Class Initialized
+INFO - 2025-05-28 02:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:09:27 --> Cart Class Initialized
+INFO - 2025-05-28 02:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:09:28 --> Cart Class Initialized
+INFO - 2025-05-28 02:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:09:53 --> Cart Class Initialized
+INFO - 2025-05-28 02:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:09:54 --> Cart Class Initialized
+INFO - 2025-05-28 02:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:09:56 --> Cart Class Initialized
+INFO - 2025-05-28 02:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:09:59 --> Cart Class Initialized
+INFO - 2025-05-28 02:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:10:03 --> Cart Class Initialized
+INFO - 2025-05-28 02:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:10:04 --> Cart Class Initialized
+INFO - 2025-05-28 02:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:10:05 --> Cart Class Initialized
+INFO - 2025-05-28 02:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:10:08 --> Cart Class Initialized
+INFO - 2025-05-28 02:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:10:14 --> Cart Class Initialized
+INFO - 2025-05-28 02:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:10:15 --> Cart Class Initialized
+INFO - 2025-05-28 02:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:10:18 --> Cart Class Initialized
+INFO - 2025-05-28 02:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:10:19 --> Cart Class Initialized
+INFO - 2025-05-28 02:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:10:51 --> Cart Class Initialized
+INFO - 2025-05-28 02:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:10:52 --> Cart Class Initialized
+INFO - 2025-05-28 02:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:10:54 --> Cart Class Initialized
+INFO - 2025-05-28 02:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:17:53 --> Cart Class Initialized
+INFO - 2025-05-28 02:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:26:40 --> Cart Class Initialized
+INFO - 2025-05-28 02:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 02:57:24 --> Cart Class Initialized
+INFO - 2025-05-28 20:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:13:14 --> Cart Class Initialized
+INFO - 2025-05-28 20:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:13:16 --> Cart Class Initialized
+INFO - 2025-05-28 20:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:13:46 --> Cart Class Initialized
+INFO - 2025-05-28 20:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:13:48 --> Cart Class Initialized
+INFO - 2025-05-28 20:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:14:06 --> Cart Class Initialized
+INFO - 2025-05-28 20:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:14:12 --> Cart Class Initialized
+INFO - 2025-05-28 20:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:14:19 --> Cart Class Initialized
+INFO - 2025-05-28 20:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:14:20 --> Cart Class Initialized
+INFO - 2025-05-28 20:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:19:35 --> Cart Class Initialized
+INFO - 2025-05-28 20:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:20:55 --> Cart Class Initialized
+INFO - 2025-05-28 20:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:20:58 --> Cart Class Initialized
+INFO - 2025-05-28 20:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:24:34 --> Cart Class Initialized
+INFO - 2025-05-28 20:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:24:45 --> Cart Class Initialized
+INFO - 2025-05-28 20:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:24:47 --> Cart Class Initialized
+INFO - 2025-05-28 20:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:25:09 --> Cart Class Initialized
+INFO - 2025-05-28 20:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:25:11 --> Cart Class Initialized
+INFO - 2025-05-28 20:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:25:18 --> Cart Class Initialized
+INFO - 2025-05-28 20:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:25:20 --> Cart Class Initialized
+INFO - 2025-05-28 20:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:25:24 --> Cart Class Initialized
+INFO - 2025-05-28 20:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:27:40 --> Cart Class Initialized
+INFO - 2025-05-28 20:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:27:46 --> Cart Class Initialized
+INFO - 2025-05-28 20:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:27:47 --> Cart Class Initialized
+INFO - 2025-05-28 20:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:27:54 --> Cart Class Initialized
+INFO - 2025-05-28 20:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:27:55 --> Cart Class Initialized
+INFO - 2025-05-28 20:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:28:02 --> Cart Class Initialized
+INFO - 2025-05-28 20:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:32:06 --> Cart Class Initialized
+INFO - 2025-05-28 20:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:32:34 --> Cart Class Initialized
+INFO - 2025-05-28 20:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:35:27 --> Cart Class Initialized
+INFO - 2025-05-28 20:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:37:09 --> Cart Class Initialized
+INFO - 2025-05-28 20:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:37:40 --> Cart Class Initialized
+INFO - 2025-05-28 20:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:37:41 --> Cart Class Initialized
+INFO - 2025-05-28 20:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:39:23 --> Cart Class Initialized
+INFO - 2025-05-28 20:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:39:34 --> Cart Class Initialized
+INFO - 2025-05-28 20:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:39:36 --> Cart Class Initialized
+INFO - 2025-05-28 20:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:39:57 --> Cart Class Initialized
+INFO - 2025-05-28 20:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:40:02 --> Cart Class Initialized
+INFO - 2025-05-28 20:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:40:38 --> Cart Class Initialized
+INFO - 2025-05-28 20:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:47:52 --> Cart Class Initialized
+INFO - 2025-05-28 20:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:51:59 --> Cart Class Initialized
+INFO - 2025-05-28 20:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:56:42 --> Cart Class Initialized
+INFO - 2025-05-28 20:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:56:52 --> Cart Class Initialized
+INFO - 2025-05-28 20:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:56:54 --> Cart Class Initialized
+INFO - 2025-05-28 20:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:56:57 --> Cart Class Initialized
+INFO - 2025-05-28 20:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:57:03 --> Cart Class Initialized
+INFO - 2025-05-28 20:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:57:04 --> Cart Class Initialized
+INFO - 2025-05-28 20:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:57:05 --> Cart Class Initialized
+INFO - 2025-05-28 20:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:57:12 --> Cart Class Initialized
+INFO - 2025-05-28 20:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:57:18 --> Cart Class Initialized
+INFO - 2025-05-28 20:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:57:24 --> Cart Class Initialized
+INFO - 2025-05-28 20:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:57:28 --> Cart Class Initialized
+INFO - 2025-05-28 20:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:57:33 --> Cart Class Initialized
+INFO - 2025-05-28 20:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:59:22 --> Cart Class Initialized
+INFO - 2025-05-28 20:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 20:59:24 --> Cart Class Initialized
+INFO - 2025-05-28 21:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:02:46 --> Cart Class Initialized
+INFO - 2025-05-28 21:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:02:48 --> Cart Class Initialized
+INFO - 2025-05-28 21:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:03:21 --> Cart Class Initialized
+INFO - 2025-05-28 21:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:03:41 --> Cart Class Initialized
+INFO - 2025-05-28 21:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:03:43 --> Cart Class Initialized
+INFO - 2025-05-28 21:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:03:49 --> Cart Class Initialized
+INFO - 2025-05-28 21:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:03:51 --> Cart Class Initialized
+INFO - 2025-05-28 21:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:09:52 --> Cart Class Initialized
+INFO - 2025-05-28 21:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:11:21 --> Cart Class Initialized
+INFO - 2025-05-28 21:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:11:22 --> Cart Class Initialized
+INFO - 2025-05-28 21:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:13:24 --> Cart Class Initialized
+INFO - 2025-05-28 21:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:13:50 --> Cart Class Initialized
+INFO - 2025-05-28 21:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:13:58 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:00 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:01 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:01 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:02 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:02 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:04 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:04 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:05 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:05 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:07 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:08 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:08 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:09 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:09 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:09 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:10 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:11 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:11 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:12 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:19 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:22 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:23 --> Cart Class Initialized
+INFO - 2025-05-28 21:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:14:34 --> Cart Class Initialized
+INFO - 2025-05-28 21:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:20:39 --> Cart Class Initialized
+INFO - 2025-05-28 21:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:20:46 --> Cart Class Initialized
+INFO - 2025-05-28 21:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:20:53 --> Cart Class Initialized
+INFO - 2025-05-28 21:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:20:55 --> Cart Class Initialized
+INFO - 2025-05-28 21:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:20:58 --> Cart Class Initialized
+INFO - 2025-05-28 21:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:21:05 --> Cart Class Initialized
+INFO - 2025-05-28 21:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:21:15 --> Cart Class Initialized
+INFO - 2025-05-28 21:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:21:26 --> Cart Class Initialized
+INFO - 2025-05-28 21:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:21:28 --> Cart Class Initialized
+INFO - 2025-05-28 21:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:22:00 --> Cart Class Initialized
+INFO - 2025-05-28 21:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:22:04 --> Cart Class Initialized
+INFO - 2025-05-28 21:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:22:10 --> Cart Class Initialized
+INFO - 2025-05-28 21:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:22:13 --> Cart Class Initialized
+INFO - 2025-05-28 21:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:22:17 --> Cart Class Initialized
+INFO - 2025-05-28 21:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:22:25 --> Cart Class Initialized
+INFO - 2025-05-28 21:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:22:34 --> Cart Class Initialized
+INFO - 2025-05-28 21:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:22:34 --> Cart Class Initialized
+INFO - 2025-05-28 21:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:37:46 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:01 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:02 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:03 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:03 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:04 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:04 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:07 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:07 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:09 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:09 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:10 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:12 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:12 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:12 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:12 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:12 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:13 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:15 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:15 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:18 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:24 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:26 --> Cart Class Initialized
+INFO - 2025-05-28 21:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:38:27 --> Cart Class Initialized
+INFO - 2025-05-28 21:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:46:08 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:08 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:15 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:17 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:18 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:18 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:19 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:19 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:21 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:21 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:23 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:23 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:25 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:26 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:26 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:27 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:27 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:27 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:27 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:28 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:28 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:28 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:28 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:29 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:29 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:30 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:30 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:31 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:31 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:34 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:34 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:37 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:57:45 --> Cart Class Initialized
+INFO - 2025-05-28 21:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 21:57:46 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Ventascontroller.php on line 145.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Ventascontroller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ventascontroller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ventascontroller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Ventascontroller')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Ventascontroller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-28 21:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:59:17 --> Cart Class Initialized
+INFO - 2025-05-28 21:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 21:59:17 --> Cart Class Initialized
+INFO - 2025-05-28 22:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:01:59 --> Cart Class Initialized
+INFO - 2025-05-28 22:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:02:03 --> Cart Class Initialized
+INFO - 2025-05-28 22:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:02:08 --> Cart Class Initialized
+INFO - 2025-05-28 22:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:02:08 --> Cart Class Initialized
+INFO - 2025-05-28 22:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:02:12 --> Cart Class Initialized
+INFO - 2025-05-28 22:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:02:14 --> Cart Class Initialized
+INFO - 2025-05-28 22:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:02:37 --> Cart Class Initialized
+INFO - 2025-05-28 22:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:03:15 --> Cart Class Initialized
+INFO - 2025-05-28 22:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:03:19 --> Cart Class Initialized
+INFO - 2025-05-28 22:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:15:58 --> Cart Class Initialized
+INFO - 2025-05-28 22:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:16:14 --> Cart Class Initialized
+INFO - 2025-05-28 22:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:16:45 --> Cart Class Initialized
+INFO - 2025-05-28 22:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:16:56 --> Cart Class Initialized
+INFO - 2025-05-28 22:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:17:35 --> Cart Class Initialized
+INFO - 2025-05-28 22:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:17:43 --> Cart Class Initialized
+INFO - 2025-05-28 22:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:17:45 --> Cart Class Initialized
+INFO - 2025-05-28 22:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:17:46 --> Cart Class Initialized
+INFO - 2025-05-28 22:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:17:46 --> Cart Class Initialized
+INFO - 2025-05-28 22:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:17:47 --> Cart Class Initialized
+INFO - 2025-05-28 22:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:17:47 --> Cart Class Initialized
+INFO - 2025-05-28 22:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:17:48 --> Cart Class Initialized
+INFO - 2025-05-28 22:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:17:49 --> Cart Class Initialized
+INFO - 2025-05-28 22:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:17:49 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:12 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:14 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:14 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:15 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:15 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:17 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:17 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:19 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:19 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:21 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:22 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:22 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:23 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:23 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:24 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:24 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:26 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:26 --> Cart Class Initialized
+INFO - 2025-05-28 22:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 22:59:28 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:26 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:29 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:30 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:31 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:31 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:32 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:32 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:34 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:34 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:35 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:36 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:36 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:38 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:38 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:39 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:39 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:39 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:39 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:40 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:40 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:40 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:40 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:40 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:41 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:42 --> Cart Class Initialized
+INFO - 2025-05-28 23:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:05:42 --> Cart Class Initialized
+INFO - 2025-05-28 23:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:09:36 --> Cart Class Initialized
+INFO - 2025-05-28 23:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:09:39 --> Cart Class Initialized
+INFO - 2025-05-28 23:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:09:46 --> Cart Class Initialized
+INFO - 2025-05-28 23:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:09:47 --> Cart Class Initialized
+INFO - 2025-05-28 23:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:09:47 --> Cart Class Initialized
+INFO - 2025-05-28 23:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:09:49 --> Cart Class Initialized
+INFO - 2025-05-28 23:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:09:50 --> Cart Class Initialized
+INFO - 2025-05-28 23:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:09:52 --> Cart Class Initialized
+INFO - 2025-05-28 23:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:11:01 --> Cart Class Initialized
+INFO - 2025-05-28 23:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:11:27 --> Cart Class Initialized
+INFO - 2025-05-28 23:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:11:33 --> Cart Class Initialized
+INFO - 2025-05-28 23:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:11:56 --> Cart Class Initialized
+CRITICAL - 2025-05-28 23:11:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\Productos\Editar_Productos.php on line 76.
+ 1 APPPATH\Views\Productos\Editar_Productos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Productos\\Editar_Productos.php', 76, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Productos\\Editar_Productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Editar_Productos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(90): view('Views/Productos/Editar_Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->editar('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-28 23:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:12:02 --> Cart Class Initialized
+INFO - 2025-05-28 23:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:12:04 --> Cart Class Initialized
+INFO - 2025-05-28 23:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:12:08 --> Cart Class Initialized
+INFO - 2025-05-28 23:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:12:17 --> Cart Class Initialized
+INFO - 2025-05-28 23:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:12:21 --> Cart Class Initialized
+INFO - 2025-05-28 23:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:12:24 --> Cart Class Initialized
+CRITICAL - 2025-05-28 23:12:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\Productos\Editar_Productos.php on line 76.
+ 1 APPPATH\Views\Productos\Editar_Productos.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Productos\\Editar_Productos.php', 76, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Productos\\Editar_Productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Editar_Productos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(90): view('Views/Productos/Editar_Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->editar('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-28 23:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:15:12 --> Cart Class Initialized
+CRITICAL - 2025-05-28 23:15:12 --> Trying to access array offset on value of type null
+in APPPATH\Views\Productos\Editar_Productos.php on line 80.
+ 1 APPPATH\Views\Productos\Editar_Productos.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Productos\\Editar_Productos.php', 80, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Productos\\Editar_Productos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Views/Productos/Editar_Productos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(90): view('Views/Productos/Editar_Productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->editar('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-28 23:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:18:24 --> Cart Class Initialized
+CRITICAL - 2025-05-28 23:18:26 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, string given, called in C:\xampp\htdocs\Proyecto-Emilio-Erk\app\Controllers\Producto_controller.php on line 92
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Producto_controller.php(92): CodeIgniter\HTTP\RedirectResponse->to('error', 'Producto no encontrado.')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->editar('6')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-05-28 23:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:20:29 --> Cart Class Initialized
+INFO - 2025-05-28 23:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:21:39 --> Cart Class Initialized
+INFO - 2025-05-28 23:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:21:57 --> Cart Class Initialized
+INFO - 2025-05-28 23:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:23:17 --> Cart Class Initialized
+INFO - 2025-05-28 23:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:24:21 --> Cart Class Initialized
+INFO - 2025-05-28 23:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:24:22 --> Cart Class Initialized
+INFO - 2025-05-28 23:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:24:54 --> Cart Class Initialized
+INFO - 2025-05-28 23:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:24:56 --> Cart Class Initialized
+INFO - 2025-05-28 23:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:25:00 --> Cart Class Initialized
+INFO - 2025-05-28 23:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:25:09 --> Cart Class Initialized
+INFO - 2025-05-28 23:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:25:30 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:00 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:03 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:05 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:09 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:10 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:12 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:13 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:15 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:15 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:16 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:16 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:17 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:18 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:19 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:19 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:20 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:20 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:21 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:22 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:25 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:27 --> Cart Class Initialized
+INFO - 2025-05-28 23:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:26:34 --> Cart Class Initialized
+INFO - 2025-05-28 23:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:27:16 --> Cart Class Initialized
+INFO - 2025-05-28 23:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:27:22 --> Cart Class Initialized
+INFO - 2025-05-28 23:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:27:23 --> Cart Class Initialized
+INFO - 2025-05-28 23:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:27:31 --> Cart Class Initialized
+INFO - 2025-05-28 23:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:27:34 --> Cart Class Initialized
+INFO - 2025-05-28 23:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:27:35 --> Cart Class Initialized
+INFO - 2025-05-28 23:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:27:36 --> Cart Class Initialized
+INFO - 2025-05-28 23:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:27:43 --> Cart Class Initialized
+INFO - 2025-05-28 23:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:27:51 --> Cart Class Initialized
+INFO - 2025-05-28 23:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:27:58 --> Cart Class Initialized
+INFO - 2025-05-28 23:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:28:12 --> Cart Class Initialized
+INFO - 2025-05-28 23:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:28:14 --> Cart Class Initialized
+INFO - 2025-05-28 23:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:28:15 --> Cart Class Initialized
+INFO - 2025-05-28 23:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:28:16 --> Cart Class Initialized
+INFO - 2025-05-28 23:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:28:23 --> Cart Class Initialized
+INFO - 2025-05-28 23:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:28:25 --> Cart Class Initialized
+INFO - 2025-05-28 23:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:28:25 --> Cart Class Initialized
+INFO - 2025-05-28 23:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:30:00 --> Cart Class Initialized
+INFO - 2025-05-28 23:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:30:02 --> Cart Class Initialized
+INFO - 2025-05-28 23:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:36:04 --> Cart Class Initialized
+INFO - 2025-05-28 23:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:36:04 --> Cart Class Initialized
+INFO - 2025-05-28 23:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:37:14 --> Cart Class Initialized
+INFO - 2025-05-28 23:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:37:16 --> Cart Class Initialized
+INFO - 2025-05-28 23:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:37:16 --> Cart Class Initialized
+INFO - 2025-05-28 23:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:37:18 --> Cart Class Initialized
+INFO - 2025-05-28 23:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:37:19 --> Cart Class Initialized
+INFO - 2025-05-28 23:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-28 23:50:58 --> Cart Class Initialized
