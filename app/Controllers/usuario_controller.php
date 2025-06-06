@@ -20,7 +20,7 @@ $data['usuarios'] = $usuarios->findAll();
     }
 
 
-   public function registrar()
+   public function create()
 {
     $request = \Config\Services::request();
     $data = [

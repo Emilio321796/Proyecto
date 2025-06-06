@@ -57,6 +57,10 @@
   
   }
   
+.card2 .card-body p {
+    font-size: 1.5rem; /* Ajustá el tamaño según prefieras */
+    font-weight: bold;
+}  
  
 /*.card2 {
   width: 100%;
@@ -154,3 +158,5 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agrega una sombra para destacar */
 .card-header2{
   color: rgb(234, 227, 227);
 }
+
+

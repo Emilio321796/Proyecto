@@ -56,7 +56,8 @@ class Consulta_Controller extends BaseController
 
     $model = new Consulta_model();
     $data['consultas'] = $model->findAll();
-
-        return view('Consultas/Lista_Consulta', $data); // Asegurate de que esta vista exista
+        
+        echo view('Front/nav-view');
+        echo view('Consultas/Lista_Consulta', $data); // Asegurate de que esta vista exista
     }
 }

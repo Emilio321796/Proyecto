@@ -52,8 +52,11 @@ class Home extends BaseController
         echo view('Views/Front/Login');
     }
 
-    public function Registrar (){
-        echo view('Views/nav-view');
-        echo view('Views/Registrar');
-    }
+  public function faqs()
+{
+    echo view('Views/Front/nav-view');
+    echo view('Front/FAQs');
+}
+    
+
 }

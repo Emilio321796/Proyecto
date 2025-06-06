@@ -1,5 +1,5 @@
-  <head>
-<style>
+<head>
+  <style>
 
     body {
         background-color: #2c2f33;
@@ -39,13 +39,22 @@
         color: white;
         border: none;
     }
-</style>
+  </style>
 </head>
 
 
 <div class="container-fluid" id="carrito">
     <div class="cart">
         <div class="heading">
+            
+             <?php if (session()->getFlashdata('error_stock')): ?>
+             <div class="alert alert-danger text-center"><?= session()->getFlashdata('error_stock') ?></div>
+             <?php endif; ?>
+
+        <?php if (session()->getFlashdata('success')): ?>
+        <div class="alert alert-success text-center"><?= session()->getFlashdata('success') ?></div>
+        <?php endif; ?>
+
             <h2 id="h3" align="center">Producto en tu carrito</h2>
         </div>
         <div class="text" align="center">
@@ -63,12 +72,12 @@
         </div>
     </div>
 
-    <?php if (session()->getFlashdata('mensaje')) {
-        echo "<div class='alert alert-success alert-dismissible fade show text-center mb-3 w-50 mx-auto' role='alert'>
-                <h4 class=''>¡Gracias por su compra!</h4>
-                <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='close'></button>
-              </div>";
-    } ?>
+    <?php if (session()->getFlashdata('mensaje')): ?>
+    <div class='alert alert-success alert-dismissible fade show text-center mb-3 w-50 mx-auto' role='alert'>
+        <h4 class=''><?= session()->getFlashdata('mensaje') ?></h4>
+        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='close'></button>
+    </div>
+<?php endif; ?>
 
     <?php if ($cart) { ?>
        <div class="table-container">
@@ -133,7 +142,9 @@
             <?= form_open('borrar_carrito') ?>
                 <button type="submit" class="btn btn-danger">Borrar Carrito</button>
             <?= form_close() ?>
-            <button class="btn btn-success" onclick="window.location = '<?= base_url('carrito-comprar') ?>'">Comprar</button>
+            <form action="<?= base_url('carrito-comprar') ?>" method="post">
+                  <button type="submit" class="btn btn-success">Comprar</button>
+            </form>
 
         </div>
         <?php echo form_close(); ?>
@@ -141,3 +152,8 @@
 <?php } ?>
 
 </div>
+
+
+<script>
+    console.log('Carrito cargado');
+</script>

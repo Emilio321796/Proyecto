@@ -36,7 +36,7 @@ $routes->get('Comercializacion', 'Home::Comercializacion');
 $routes->get('quienessomos', 'Home::quienessomos');
 $routes->get('consultas', 'Home::consultas');
 $routes->get('terminosycondiciones', 'Home::terminosycondiciones');
-$routes->get('Productos2', 'Producto_Controller::index');
+$routes->get('FAQs', 'Home::FAQs');
 $routes->get('Login', 'Home::Login');
 
 /*rutas del login*/
@@ -97,8 +97,10 @@ $routes->post('/carrito_actualiza', 'Carrito_controller::borrarCarrito', ['filte
 $routes->get('/borrar', 'Carrito_controller::borrarCarrito', ['filter' => 'auth']);
 $routes->get('carrito/sumar/(:any)', 'Carrito_controller::sumar/$1');
 $routes->get('carrito/restar/(:any)', 'Carrito_controller::restar/$1');
-$routes->get('/carrito-comprar', 'Ventascontroller::registrar_venta',['filter' => 'auth']);
+$routes->post('/carrito-comprar', 'Ventascontroller::registrar_venta',['filter' => 'auth']);
 $routes->get('Carrito', 'Carrito_controller::muestra');
+$routes->get('Carrito', 'Carrito_controller::');
+
 $routes->post('carrito/comprar', 'Carrito_controller::comprar');
 
 
@@ -118,9 +120,15 @@ $routes->post('ventas/actualizar', 'Ventas::actualizar_carrito');
 $routes->get('ventas/eliminar/(:segment)', 'Ventas::eliminar_producto/$1');
 $routes->get('ventas/borrar', 'Ventas::borrar_carrito');
 $routes->post('ventas/procesar', 'Ventas::procesar_compra');
-$routes->get('ventas', 'Ventascontroller::actualizar_carrito', ['filter' => 'auth']);
+$routes->get('ventas', 'Ventascontroller::mostrar', ['filter' => 'auth']);
+$routes->post('ventas/borrarDetalle/(:num)', 'Ventascontroller::borrarDetalle/$1');
+$routes->get('Ventas/Mostrar_Ventas', 'Ventascontroller::mostrar');
+$routes->post('ventas/reiniciarStock', 'Ventascontroller::reiniciarStock');
+$routes->get('post-venta/(:num)', 'Ventascontroller::resumen/$1');
+$routes->get('factura/(:num)', 'Ventascontroller::factura/$1');
 
-$routes->get('Ventas/Mostrar_Ventas', 'Ventascontroller::carrito');
+
+
 
 
 

@@ -1,0 +1,138 @@
+INFO - 2025-06-06 00:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-06 00:31:55 --> Cart Class Initialized
+INFO - 2025-06-06 00:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-06 00:53:50 --> Cart Class Initialized
+CRITICAL - 2025-06-06 00:53:58 --> Undefined variable: venta
+in APPPATH\Controllers\Ventascontroller.php on line 247.
+ 1 APPPATH\Controllers\Ventascontroller.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: venta', 'APPPATH\\Controllers\\Ventascontroller.php', 247, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->resumen('3')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-06 00:54:09 --> Undefined variable: venta
+in APPPATH\Controllers\Ventascontroller.php on line 247.
+ 1 APPPATH\Controllers\Ventascontroller.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: venta', 'APPPATH\\Controllers\\Ventascontroller.php', 247, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->resumen('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-06 00:56:26 --> Undefined variable: venta
+in APPPATH\Controllers\Ventascontroller.php on line 247.
+ 1 APPPATH\Controllers\Ventascontroller.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: venta', 'APPPATH\\Controllers\\Ventascontroller.php', 247, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->resumen('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-06 00:56:27 --> Undefined variable: venta
+in APPPATH\Controllers\Ventascontroller.php on line 247.
+ 1 APPPATH\Controllers\Ventascontroller.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: venta', 'APPPATH\\Controllers\\Ventascontroller.php', 247, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->resumen('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-06 00:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-06 00:56:50 --> Cart Class Initialized
+INFO - 2025-06-06 00:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-06 00:56:51 --> Cart Class Initialized
+INFO - 2025-06-06 00:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-06 00:56:53 --> Cart Class Initialized
+INFO - 2025-06-06 00:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-06 00:56:54 --> Cart Class Initialized
+INFO - 2025-06-06 00:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-06 00:56:54 --> Cart Class Initialized
+INFO - 2025-06-06 00:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-06 00:56:56 --> Cart Class Initialized
+INFO - 2025-06-06 00:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-06 00:56:56 --> Cart Class Initialized
+INFO - 2025-06-06 00:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-06 00:56:57 --> Cart Class Initialized
+INFO - 2025-06-06 00:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-06 00:56:58 --> Cart Class Initialized
+INFO - 2025-06-06 00:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-06 00:56:59 --> Cart Class Initialized
+CRITICAL - 2025-06-06 00:57:14 --> Undefined variable: venta
+in APPPATH\Controllers\Ventascontroller.php on line 247.
+ 1 APPPATH\Controllers\Ventascontroller.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: venta', 'APPPATH\\Controllers\\Ventascontroller.php', 247, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->resumen('3')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-06 00:57:20 --> Undefined variable: venta
+in APPPATH\Controllers\Ventascontroller.php on line 247.
+ 1 APPPATH\Controllers\Ventascontroller.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: venta', 'APPPATH\\Controllers\\Ventascontroller.php', 247, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->resumen('5')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-06 00:59:50 --> Undefined variable: ventaCabeceraModel
+in APPPATH\Controllers\Ventascontroller.php on line 246.
+ 1 APPPATH\Controllers\Ventascontroller.php(246): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ventaCabeceraModel', 'APPPATH\\Controllers\\Ventascontroller.php', 246, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->resumen('5')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-06 00:59:51 --> Undefined variable: ventaCabeceraModel
+in APPPATH\Controllers\Ventascontroller.php on line 246.
+ 1 APPPATH\Controllers\Ventascontroller.php(246): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ventaCabeceraModel', 'APPPATH\\Controllers\\Ventascontroller.php', 246, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->resumen('5')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-06 01:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-06 01:01:43 --> Cart Class Initialized
+CRITICAL - 2025-06-06 01:01:48 --> Undefined property: App\Controllers\Ventascontroller::$ventaCabecera
+in APPPATH\Controllers\Ventascontroller.php on line 288.
+ 1 APPPATH\Controllers\Ventascontroller.php(288): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Ventascontroller::$ventaCabecera', 'APPPATH\\Controllers\\Ventascontroller.php', 288, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->factura('5')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-06 01:02:20 --> Undefined property: App\Controllers\Ventascontroller::$ventaCabecera
+in APPPATH\Controllers\Ventascontroller.php on line 292.
+ 1 APPPATH\Controllers\Ventascontroller.php(292): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Ventascontroller::$ventaCabecera', 'APPPATH\\Controllers\\Ventascontroller.php', 292, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->factura('5')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-06 01:15:03 --> Undefined variable: venta_id
+in APPPATH\Controllers\Ventascontroller.php on line 286.
+ 1 APPPATH\Controllers\Ventascontroller.php(286): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: venta_id', 'APPPATH\\Controllers\\Ventascontroller.php', 286, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->factura('5')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-06 01:51:50 --> Undefined variable: venta_id
+in APPPATH\Controllers\Ventascontroller.php on line 283.
+ 1 APPPATH\Controllers\Ventascontroller.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: venta_id', 'APPPATH\\Controllers\\Ventascontroller.php', 283, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->factura('5')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-06-06 01:56:46 --> mysqli_sql_exception: Unknown column 'id_ventaCab' in 'where clause' in C:\xampp\htdocs\Proyecto-Emilio-Erk\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Emilio-Erk\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto-Emilio-Erk\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto-Emilio-Erk\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto-Emilio-Erk\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Emilio-Erk\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto-Emilio-Erk\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Proyecto-Emilio-Erk\app\Controllers\Ventascontroller.php(293): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Proyecto-Emilio-Erk\system\CodeIgniter.php(934): App\Controllers\Ventascontroller->factura('5')
+#8 C:\xampp\htdocs\Proyecto-Emilio-Erk\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+#9 C:\xampp\htdocs\Proyecto-Emilio-Erk\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Emilio-Erk\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-06-06 01:56:46 --> Unknown column 'id_ventaCab' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `venta_cabecera`
+JOIN `usuarios` ON `usuarios`.`us_id` = `ventas_cabecera`.`id_Cliente`
+WHERE `id_ventaCab` = :id_ventaCab:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Ventascontroller.php(293): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ventascontroller->factura('5')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventascontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

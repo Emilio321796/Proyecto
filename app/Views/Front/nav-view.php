@@ -42,9 +42,7 @@ $logged = $session->get('logged_in');
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?php echo base_url('inicio'); ?>">Home</a>
-                    </li>
+                    
 
 
         <?php if ($perfil == 1){ ?>
@@ -69,12 +67,17 @@ $logged = $session->get('logged_in');
 
     $cont = $cart->totalItems();?>
 
-
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="<?php echo base_url('inicio'); ?>">Home</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('Productos'); ?>">Productos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('Carrito'); ?>">Carrito <span style="color: green"><?php echo $cont ?></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url('post-venta'); ?>">Resumen Venta</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('quienessomos'); ?>" tabindex="-1" aria-disabled="true">¿Quienes somos?</a>
@@ -109,7 +112,7 @@ $logged = $session->get('logged_in');
 
 
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('Productos2'); ?>">Productos</a>
+                        <a class="nav-link" href="<?php echo base_url('Productos'); ?>">Productos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url('quienessomos'); ?>" tabindex="-1" aria-disabled="true">¿Quienes somos?</a>
@@ -135,8 +138,10 @@ $logged = $session->get('logged_in');
 <?php } ?>
 
 <!-- Bootstrap 4 JavaScript -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-SqaqClZSKg4oJ/pPim91H7+KEi5K9E/2y/nQvIuwEOB5N0xFwMmkT2R/hsJFv3KD" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-XE+CnWGL4Ev6VxK/8L+XK5+gD+YRM2CvdXkqZoELmHzSkrL+HCtkbE+g/3k4zG2z" crossorigin="anonymous"></script>
+<!-- jQuery primero, luego Popper, luego Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>

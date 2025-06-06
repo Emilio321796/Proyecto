@@ -22,7 +22,7 @@
                 <h4>DK</h4>
                 <ul>
                     <li><a href="<?php echo base_url('DK') ?>">Home</a></li> 
-                    <li><a href="#">FAQs</a></li>
+                    <li><a href="<?php echo base_url('FAQs') ?>">FAQs</a></li>
                 </ul>
             </div>
             <div class="footer-links">

@@ -29,6 +29,32 @@
     0 0 25px #FF4081;
 }
 
+.card2 .card-body p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Tablets */
+@media (min-width: 576px) {
+    .card2 .card-body p {
+        font-size: 1.4rem;
+    }
+}
+
+/* Laptops */
+@media (min-width: 768px) {
+    .card2 .card-body p {
+        font-size: 1.6rem;
+    }
+}
+
+/* Pantallas grandes */
+@media (min-width: 992px) {
+    .card2 .card-body p {
+        font-size: 1.8rem;
+    }
+}
+
 /* Mejora para pantallas menores a 480px (como Pixel 7) */
 @media (max-width: 480px) {
   .card2 {

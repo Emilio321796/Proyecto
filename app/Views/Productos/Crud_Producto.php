@@ -1,5 +1,6 @@
 <head>
     <link rel="stylesheet" href="<?= base_url('assets/css/crud_producto.css') ?>">
+        
 </head>
 
 
@@ -76,56 +77,67 @@
     </div>
 
     <!-- Lista de productos -->
-    <div class="mt-5 card shadow-sm">
-        <div class="card-body">
-            <h4 class="card-title mb-3 text-center">📝 Lista de productos</h4>
-            <div class="table-responsive">
-                <table class="table table-bordered table-hover align-middle text-center">
-                    <thead class="table-dark">
+<div class="mt-5 card shadow-sm">
+    <div class="card-body">
+        <h4 class="card-title mb-3 text-center">📝 Lista de productos</h4>
+
+        <!-- 🔁 Botón Reiniciar Stock -->
+        <div class="mb-3 text-end">
+              <form action="<?= base_url('ventas/reiniciarStock') ?>" method="post" onsubmit="return confirm('¿Estás seguro que deseas reiniciar el stock de todos los productos?');">
+                <button type="submit" class="btn btn-warning">Reiniciar Stock</button>
+              </form>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover align-middle text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Imagen</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($productos as $producto): ?>
                         <tr>
-                            <th>Imagen</th>
-                            <th>Producto</th>
-                            <th>Precio</th>
-                            <th>Stock</th>
-                            <th>Acciones</th>
+                            <td>
+                                <img src="<?= base_url('assets/upload/' . $producto['img']); ?>" alt="Imagen" style="height: 50px; width: 50px; object-fit: contain;">
+                            </td>
+                            <td><?= esc($producto['Nombre']) ?></td>
+                            <td>$<?= number_format($producto['Precio_final'], 2) ?></td>
+                            <td><?= esc($producto['Stock']) ?></td>
+                            <td>
+                                <div class="btn-group">
+                                    <!-- Botón editar -->
+                                    <a href="<?= base_url('editarProd/' . $producto['ID_Pro']) ?>" class="btn btn-warning" role="button" title="Editar">
+                                       <i class="bi bi-pencil-square"></i>
+                                    </a>
+
+
+                                    <!-- Botón de alta/baja -->
+                                    <?php if ($producto['active'] == 1): ?>
+                                        <a class="btn btn-success btn-sm" href="<?= base_url('darAltaProducto/' . $producto['ID_Pro']) ?>" title="Activo">
+                                            <i class="bi bi-toggle-on"></i>
+                                        </a>
+                                    <?php else: ?>
+                                        <button type="button" class="btn btn-danger " data-bs-toggle="modal" data-bs-target="#eliminaModal" data-producto-id="<?= $producto['ID_Pro'] ?>" title="Eliminar">
+                                            <i class="bi bi-trash"></i>
+                                        </button>
+                                    <?php endif; ?>
+                                </div>
+                            </td>
                         </tr>
-                    </thead>
-                    <tbody>
-                        <?php foreach ($productos as $producto): ?>
-                            <tr>
-                                <td>
-                                    <img src="<?= base_url('assets/upload/' . $producto['img']); ?>" alt="Imagen" style="height: 50px; width: 50px; object-fit: contain;">
-                                </td>
-                                <td><?= esc($producto['Nombre']) ?></td>
-                                <td>$<?= number_format($producto['Precio_final'], 2) ?></td>
-                                <td><?= esc($producto['Stock']) ?></td>
-                                <td>
-                                   <div class="btn-group">
-    <!-- Botón editar -->
-    <a class="btn btn-warning btn-sm" href="<?= base_url('editarProd/' . $producto['ID_Pro']) ?>" title="Editar">
-        <i class="bi bi-pencil-square"></i>
-    </a>
-
-    <!-- Botón de alta/baja -->
-    <?php if ($producto['active'] == 1): ?>
-        <a class="btn btn-success btn-sm" href="<?= base_url('darAltaProducto/' . $producto['ID_Pro']) ?>" title="Activo">
-            <i class="bi bi-toggle-on"></i>
-        </a>
-    <?php else: ?>
-        <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#eliminaModal" data-producto-id="<?= $producto['ID_Pro'] ?>" title="Eliminar">
-            <i class="bi bi-trash"></i>
-        </button>
-    <?php endif; ?>
-</div>
-
-                                </td>
-                            </tr>
-                        <?php endforeach; ?>
-                    </tbody>
-                </table>
-            </div>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
         </div>
     </div>
+</div>
+
+
+    
 
     <!-- Modal Eliminar -->
     <div class="modal fade" id="eliminaModal" tabindex="-1" aria-labelledby="eliminaModalLabel" aria-hidden="true">

@@ -1,0 +1,40 @@
+/* Estilo general de la tabla */
+.tabla-ventas {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Encabezados */
+.tabla-ventas thead th {
+    background-color: #f8f9fa;
+    color: #212529;
+    text-align: center;
+    padding: 12px;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: 600;
+}
+
+/* Filas */
+.tabla-ventas tbody td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Alternancia de color */
+.tabla-ventas tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover */
+.tabla-ventas tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Botones */
+.tabla-ventas .btn {
+    padding: 5px 10px;
+    font-size: 0.875rem;
+}

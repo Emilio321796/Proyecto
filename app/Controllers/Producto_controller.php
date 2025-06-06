@@ -270,6 +270,7 @@ class Producto_controller extends Controller
         }
     }
 
+    
 
 
 

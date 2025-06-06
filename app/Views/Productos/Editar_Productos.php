@@ -113,7 +113,7 @@
                     </div>
                     <div class="btn-group">
                         <button type="submit" id="send_form" class="btn btn-success">Enviar</button>
-                        <button type="reset" class="btn btn-danger">Cancelar</button>
+                        <a href="<?= base_url('Crud_Producto') ?>" class="btn btn-danger">Cancelar</a>                    
                     </div>
                 </form>
             </div>
