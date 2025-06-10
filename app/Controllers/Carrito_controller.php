@@ -175,8 +175,68 @@ public function comprar()
     // Redirigir con mensaje de éxito
     return redirect()->to('/carrito')->with('compra_exitosa', '¡Gracias por su compra!');
 
-}
+   }
 
+    public function resumenCompra()
+    {
+    $cart = \Config\Services::cart();
+    $contenido = $cart->contents();
+
+    if (empty($contenido)) {
+        return redirect()->to('/carrito')->with('mensaje', 'El carrito está vacío.');
+    }
+
+    $total = 0;
+    foreach ($contenido as $item) {
+        $total += $item['price'] * $item['qty'];
+    }
+
+    return view('Front/nav-view')
+        . view('resumen-compra', ['cart' => $contenido, 'total' => $total]);
+    }
+
+    public function finalizarCompra()
+    {
+    $session = session();
+    $usuario_id = $session->get('id_usuario');
+    $cart = \Config\Services::cart();
+
+    if (!$usuario_id || empty($cart->contents())) {
+        return redirect()->to('/carrito')->with('mensaje', 'No hay productos en el carrito o no hay sesión activa.');
+    }
+
+    $contenido = $cart->contents();
+    $total = 0;
+
+    foreach ($contenido as $item) {
+        $total += $item['price'] * $item['qty'];
+    }
+
+    $ventaModel = new \App\Models\Ventas_cabecera_model();
+    $detalleModel = new \App\Models\Ventas_detalle_model();
+
+    // Insertar en venta_cabecera
+    $cabecera_id = $ventaModel->insert([
+        'fecha' => date('Y-m-d'),
+        'usuario_id' => $usuario_id,
+        'total_venta' => $total
+    ]);
+
+    // Insertar los detalles
+    foreach ($contenido as $item) {
+        $detalleModel->insert([
+            'venta_id' => $cabecera_id,
+            'producto_id' => $item['id'],
+            'cantidad' => $item['qty'],
+            'Precio' => $item['price']
+        ]);
+    }
+
+    // Vaciar el carrito
+    $cart->destroy();
+
+    return redirect()->to('/carrito')->with('success', '¡Compra finalizada correctamente!');
+    }
 
 
 }

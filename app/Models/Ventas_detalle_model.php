@@ -8,4 +8,13 @@ class Ventas_detalle_model extends Model{
     
     protected $primaryKey       = 'id';
     protected $allowedFields    = ['venta_id', 'producto_id', 'cantidad', 'Precio'];
+
+   
+   public function obtenerDetallesPorVentaId($venta_id)
+   {
+    return $this->select('venta_detalle.*, producto.Nombre AS producto_nombre')
+                ->join('producto', 'producto.ID_Pro = venta_detalle.producto_id')
+                ->where('venta_detalle.venta_id', $venta_id)
+                ->findAll();
+   }
 }

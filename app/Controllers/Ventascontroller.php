@@ -3,16 +3,8 @@
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
-use App\Models\carrito;
-use App\Models\actualizar_carrito;
-use App\Models\eliminar_producto;
-use App\Models\borrar_carrito;
-use App\Models\procesar_compra;
-use App\Models\registrar_venta;
-use App\Models\mostrar;
-use App\Models\borrarDetalle;
-use App\Models\reiniciarStock;
-use App\Models\resumen;
+use App\Models\Ventas_cabecera_model;
+use App\Models\Ventas_detalle_model;
 
 
 class Ventascontroller extends Controller
@@ -234,46 +226,24 @@ class Ventascontroller extends Controller
       return redirect()->to('/Crud_Producto'); // o donde quieras redirigir
     }
 
-    public function resumen($venta_id = null)
-    {
+    public function ventasUsuario()
+{
+    $usuario_id = session()->get('id_usuario');
 
-    $ventaCabeceraModel = new \App\Models\Ventas_cabecera_model();
-    $ventaDetalleModel  = new \App\Models\Ventas_detalle_model();
+    $ventaModel = new \App\Models\Ventas_cabecera_model();
+    $detalleModel = new \App\Models\Ventas_detalle_model();
 
+    echo "Usuario en sesión: $usuario_id<br>";
+    // Obtener todas las ventas del usuario
+    $ventas = $ventaModel->where('usuario_id', $usuario_id)->findAll();
 
-    // Verificar si no se proporcionó un ID
-    if ($venta_id === null) {
-        return redirect()->to(base_url('carrito'))->with('error', 'ID de venta no proporcionado.');
+    // Para cada venta, obtener sus detalles
+    foreach ($ventas as &$venta) {
+        $venta['detalles'] = $detalleModel->obtenerDetallesPorVentaId($venta['id']);
     }
-
-    $venta = $ventaCabeceraModel->find($venta_id);
-
-    // Verificar si existe
-     if (!$venta) {
-        return redirect()->to(base_url('carrito'))->with('error', 'Venta no encontrada.');
-    }
-
-    // Cargar modelos
-    $ventaCabeceraModel = new \App\Models\Ventas_cabecera_model();
-    $ventaDetalleModel = new \App\Models\Ventas_detalle_model();
-    $ultimaVenta = $ventaCabeceraModel->orderBy('id', 'DESC')->first();
-
-    // Obtener los detalles de la venta
-    $detalles = $ventaDetalleModel
-        ->select('venta_detalle.*, producto.Nombre as producto_nombre')
-        ->join('producto', 'producto.ID_Pro = venta_detalle.producto_id')
-        ->where('venta_id', $venta_id)
-        ->findAll();
-
-    // Cargar la vista de resumen
-    $ultimoDetalle = !empty($detalles) ? [end($detalles)] : []; 
-    echo view('Front/nav-view');
-    echo view('post-venta', [
-    'venta' => $venta,
-    'detalles' => $detalles
-]);
-
-    }
+   echo view('Front/nav-view');
+   echo view('/post-venta', ['ventas' => $ventas]);
+}
 
     public function factura($id = null)
     {
@@ -288,7 +258,7 @@ class Ventascontroller extends Controller
 
     // Buscar la venta
     $venta = $ventaCabeceraModel
-        ->join("usuarios", "usuarios.us_id = ventas_cabecera.id_Cliente")
+        ->join("usuarios", "usuarios.id_usuario = venta_cabecera.usuario_idlo")
         ->where('id_ventaCab', $id)
         ->first();
 
@@ -299,7 +269,7 @@ class Ventascontroller extends Controller
     // Buscar detalles
     $detalle_compra = $ventaDetalleModel
         ->where('id_ventaCab', $id)
-        ->join('productos', 'productos.pd_id = ventas_detalle.pd_id')
+        ->join('producto', 'producto.ID_Pro = venta_detalle.id')
         ->findAll();
 
 

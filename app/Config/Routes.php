@@ -102,7 +102,7 @@ $routes->get('Carrito', 'Carrito_controller::muestra');
 $routes->get('Carrito', 'Carrito_controller::');
 
 $routes->post('carrito/comprar', 'Carrito_controller::comprar');
-
+$routes->post('resumen-compra', 'Carrito_controller::resumenCompra');
 
 
 /* Crud */
@@ -124,8 +124,9 @@ $routes->get('ventas', 'Ventascontroller::mostrar', ['filter' => 'auth']);
 $routes->post('ventas/borrarDetalle/(:num)', 'Ventascontroller::borrarDetalle/$1');
 $routes->get('Ventas/Mostrar_Ventas', 'Ventascontroller::mostrar');
 $routes->post('ventas/reiniciarStock', 'Ventascontroller::reiniciarStock');
-$routes->get('post-venta/(:num)', 'Ventascontroller::resumen/$1');
+//$routes->get('post-venta/(:num)', 'Ventascontroller::resumen/$1');
 $routes->get('factura/(:num)', 'Ventascontroller::factura/$1');
+$routes->get('post-venta', 'Ventascontroller::ventasUsuario');
 
 
 

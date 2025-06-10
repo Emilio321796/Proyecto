@@ -1,61 +1,57 @@
 <div class="container my-5">
-    <div class="alert alert-success text-center shadow-sm">
-        <p class="mb-1">Tu pedido ha sido procesado correctamente.</p>
-    </div>
+    <h3 class="mb-4 text-center">Historial de Ventas</h3>
 
-
-    <div class="card shadow-sm rounded-4 border-0">
-        <div class="card-header bg-primary text-white rounded-top-4">
-            <div class="d-flex justify-content-between align-items-center">
-                <span><strong>ID Venta:</strong> <?= $venta['id'] ?></span>
-                <span><strong>Fecha:</strong> <?= date('d-m-Y ', strtotime($venta['fecha'])) ?></span>
-                <span><strong>Total:</strong> $<?= number_format($venta['total_venta'], 2) ?></span>
-            </div>
-        </div>
-        <div class="card-body p-0">
-            <div class="table-responsive">
-                <table class="table table-bordered table-hover mb-0 text-center align-middle">
-                    <thead class="table-light">
-                        <tr>
-                            <th>Producto</th>
-                            <th>Precio Unitario</th>
-                            <th>Cantidad</th>
-                            <th>Subtotal</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php if (!empty($detalles)): ?>
-                            <?php $ultimoDetalle = end($detalles); ?>
-                    <tbody>
-                        <tr>
-                            <td><?= esc($ultimoDetalle['producto_nombre']) ?></td>
-                            <td>$<?= number_format($ultimoDetalle['Precio'], 2) ?></td>
-                            <td><?= $ultimoDetalle['cantidad'] ?></td>
-                            <td>$<?= number_format($ultimoDetalle['Precio'] * $ultimoDetalle['cantidad'], 2) ?></td>
-                        </tr>
-                    </tbody>
+    <?php if (!empty($ventas)): ?>
+        <?php $totalGeneral = 0; ?>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover text-center align-middle">
+                <thead class="table-primary">
+                    <tr>
+                        <th>ID Venta</th>
+                        <th>Fecha</th>
+                        <th>Producto</th>
+                        <th>Precio Unitario</th>
+                        <th>Cantidad</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($ventas as $venta): ?>
+                        <?php if (!empty($venta['detalles'])): ?>
+                            <?php foreach ($venta['detalles'] as $detalle): ?>
+                                <?php 
+                                    $subtotal = $detalle['Precio'] * $detalle['cantidad']; 
+                                    $totalGeneral += $subtotal;
+                                ?>
+                                <tr>
+                                    <td><?= $venta['id'] ?></td>
+                                    <td><?= date('d-m-Y', strtotime($venta['fecha'])) ?></td>
+                                    <td><?= esc($detalle['producto_nombre']) ?></td>
+                                    <td>$<?= number_format($detalle['Precio'], 2) ?></td>
+                                    <td><?= $detalle['cantidad'] ?></td>
+                                    <td>$<?= number_format($subtotal, 2) ?></td>
+                                </tr>
+                            <?php endforeach; ?>
                         <?php else: ?>
-                    <tbody>
-                        <tr>
-                            <td colspan="4">No hay detalles para mostrar.</td>
-                        </tr>
-                    </tbody>
+                            <tr>
+                                <td><?= $venta['id'] ?></td>
+                                <td><?= date('d-m-Y', strtotime($venta['fecha'])) ?></td>
+                                <td colspan="4">No hay detalles para esta venta</td>
+                            </tr>
                         <?php endif; ?>
-               
-                    <tfoot class="table-success">
-                        <tr>
-                            <th colspan="3" class="text-end">Total Pagado</th>
-                            <th>$<?= number_format($venta['total_venta'], 2) ?></th>
-                        </tr>
-                    </tfoot>
-                </table>
-            </div>
+                    <?php endforeach; ?>
+                </tbody>
+                <tfoot class="table-success">
+                    <tr>
+                        <th colspan="5" class="text-end">Total General:</th>
+                        <th>$<?= number_format($totalGeneral, 2) ?></th>
+                    </tr>
+                </tfoot>
+            </table>
         </div>
-    </div>
-
-    <div class="text-center mt-4">
-       <a href="<?= base_url('/post-venta/' . $venta['id']) ?>" class="btn btn-success">Ver resumen</a>
-       <a href="<?= base_url('factura/' . $venta['id']) ?>" class="btn btn-success">Descargar Factura</a>
-
-    </div>
+    <?php else: ?>
+        <div class="alert alert-warning text-center">
+            No se encontraron ventas registradas.
+        </div>
+    <?php endif; ?>
 </div>

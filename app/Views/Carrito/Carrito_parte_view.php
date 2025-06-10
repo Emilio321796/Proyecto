@@ -139,14 +139,17 @@
         </div>
 
         <div class="text-center mt-4">
-            <?= form_open('borrar_carrito') ?>
-                <button type="submit" class="btn btn-danger">Borrar Carrito</button>
-            <?= form_close() ?>
-            <form action="<?= base_url('carrito-comprar') ?>" method="post">
-                  <button type="submit" class="btn btn-success">Comprar</button>
-            </form>
+             <div class="d-flex justify-content-center gap-3">
+               <?= form_open('borrar_carrito', ['class' => 'd-inline']) ?>
+                  <button type="submit" class="btn btn-danger">Borrar Carrito</button>
+               <?= form_close() ?>
 
+            <form action="<?= base_url('carrito-comprar') ?>" method="post" class="d-inline">
+              <button type="submit" class="btn btn-success">Comprar</button>
+            </form>
+              </div>
         </div>
+
         <?php echo form_close(); ?>
     </div>
 <?php } ?>
