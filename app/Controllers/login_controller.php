@@ -35,7 +35,7 @@ class login_controller extends BaseController
                $ba= $data['baja'];
                 if ($ba == 'SI'){
                      $session->setFlashdata('msg', 'usuario dado de baja');
-                     return redirect()->to('/login_controller');
+                     return redirect()->to('/Login');
                  }
                     //Se verifican los datos ingresados para iniciar, si cumple la verificaciòn inicia la sesion
                $verify_pass = password_verify($password, $pass);
@@ -75,4 +75,7 @@ class login_controller extends BaseController
         $session->destroy();
         return redirect()->to('/Login');
     }
+
+    
+
 } 

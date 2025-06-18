@@ -102,27 +102,31 @@ class Ventascontroller extends Controller
         return redirect()->to('/')->with('mensaje', 'Debe iniciar sesión para comprar.');
     }
 
-    // Obtener contenido del carrito
-    $carrito = $cart->contents();
-
     // Verificar si el carrito está vacío
-    if (empty($carrito)) {
+    if (empty($cartItems)) {
         return redirect()->back()->with('mensaje', 'El carrito está vacío.');
     }
 
-    // Insertar venta
-   $usuarioId = $session->get('id_usuario');
-
+    // Cargar modelos
+    $usuarioId = $session->get('id_usuario');
     $ventaCabeceraModel = new \App\Models\Ventas_cabecera_model();
     $ventaDetalleModel  = new \App\Models\Ventas_detalle_model();
-    $productoModel = new \App\Models\Producto_Model();
+    $productoModel      = new \App\Models\Producto_Model();
 
-    $session = session();
-    $total = 0;
+    // Verificar stock de todos los productos antes de registrar la venta
     foreach ($cartItems as $item) {
-        $total += $item['price'] * $item['qty'];
+        $producto = $productoModel->find($item['id']);
+
+        if (!$producto || !isset($producto['Stock'])) {
+            return redirect()->to('/carrito')->with('mensaje', 'Producto no encontrado: ' . $item['name']);
+        }
+
+        if ((int)$producto['Stock'] < (int)$item['qty']) {
+            return redirect()->to('/carrito')->with('mensaje', 'No hay stock suficiente para: ' . $producto['Nombre']);
+        }
     }
 
+    // Insertar cabecera de venta
     $cabecera = [
         'fecha'       => date('Y-m-d'),
         'usuario_id'  => $usuarioId,
@@ -132,36 +136,31 @@ class Ventascontroller extends Controller
     $ventaCabeceraModel->insert($cabecera);
     $idVentaCabecera = $ventaCabeceraModel->insertID();
 
-    foreach ($carrito as $item) {
+    // Insertar detalle de cada producto y actualizar stock
+    foreach ($cartItems as $item) {
         $producto = $productoModel->find($item['id']);
-
-    if ($producto && isset($producto['Stock'])) {
-        $stockActual = (int)$producto['Stock'];
         $cantidadVendida = (int)$item['qty'];
+        $nuevoStock = (int)$producto['Stock'] - $cantidadVendida;
 
-     if ($stockActual < $cantidadVendida) {
-    session()->setFlashdata('error_stock', 'No hay stock suficiente para el producto: ' . $producto['Nombre']);
-    return redirect()->to(base_url('/carrito'));
-}
-
+        // Insertar detalle
         $detalle = [
             'venta_id'    => $idVentaCabecera,
             'producto_id' => $item['id'],
-            'cantidad'    => $item['qty'],
+            'cantidad'    => $cantidadVendida,
             'Precio'      => $item['price'],
-            'subtotal'   => $item['price'] * $item['qty']
+            'subtotal'    => $item['price'] * $cantidadVendida
         ];
         $ventaDetalleModel->insert($detalle);
-   
-         
-            // Actualizar stock
-               $nuevoStock = $stockActual - $cantidadVendida;
-            $productoModel->update($item['id'], ['Stock' => $nuevoStock]);
-       }
-       $cart->destroy(); // si usás $cart = \Config\Services::cart();
-       return redirect()->to(base_url("Ventas/factura/$idVentaCabecera"));
+
+        // Actualizar stock
+        $productoModel->update($item['id'], ['Stock' => $nuevoStock]);
     }
-  }
+
+    // Vaciar el carrito y redirigir a factura
+    $cart->destroy();
+    return redirect()->to(base_url("Ventas/factura/$idVentaCabecera"));
+}
+
 
   public function mostrar()
 {

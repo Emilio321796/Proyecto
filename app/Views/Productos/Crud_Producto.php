@@ -1,6 +1,7 @@
 <head>
     <link rel="stylesheet" href="<?= base_url('assets/css/crud_producto.css') ?>">
-        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
 </head>
 
 
@@ -111,7 +112,7 @@
                             <td>
                                 <div class="btn-group">
                                     <!-- Botón editar -->
-                                    <a href="<?= base_url('editarProd/' . $producto['ID_Pro']) ?>" class="btn btn-warning" role="button" title="Editar">
+                                    <a href="<?= base_url('editarProd/' . $producto['ID_Pro']) ?>" class="btn btn-warning btn-sm" role="button" title="Editar">
                                        <i class="bi bi-pencil-square"></i>
                                     </a>
 
@@ -122,7 +123,7 @@
                                             <i class="bi bi-toggle-on"></i>
                                         </a>
                                     <?php else: ?>
-                                        <button type="button" class="btn btn-danger " data-bs-toggle="modal" data-bs-target="#eliminaModal" data-producto-id="<?= $producto['ID_Pro'] ?>" title="Eliminar">
+                                        <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#eliminaModal" data-producto-id="<?= $producto['ID_Pro'] ?>" title="Eliminar">
                                             <i class="bi bi-trash"></i>
                                         </button>
                                     <?php endif; ?>

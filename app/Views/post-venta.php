@@ -1,3 +1,11 @@
+
+<head>
+      <link rel="stylesheet" href="<?= base_url('assets/css/post-venta.css') ?>">
+
+    
+</head>
+
+
 <div class="container my-5">
     <h3 class="mb-4 text-center">Historial de Ventas</h3>
 

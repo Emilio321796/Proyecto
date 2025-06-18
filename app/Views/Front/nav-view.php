@@ -49,16 +49,16 @@ $logged = $session->get('logged_in');
    
 
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('Crud_Usuario'); ?>">CRUD Usuarios</a>
+                        <a class="nav-link fs-5" href="<?php echo base_url('Crud_Usuario'); ?>">CRUD Usuarios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('Crud_Producto'); ?>">CRUD productos</a>
+                        <a class="nav-link fs-5" href="<?php echo base_url('Crud_Producto'); ?>">CRUD productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('ventas'); ?>" tabindex="-1" aria-disabled="true">Muestra Ventas</a>
+                        <a class="nav-link fs-5" href="<?php echo base_url('ventas'); ?>" tabindex="-1" aria-disabled="true">Muestra Ventas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('listar-consultas'); ?>" tabindex="-1" aria-disabled="true">Consultas</a>
+                        <a class="nav-link fs-5" href="<?php echo base_url('listar-consultas'); ?>" tabindex="-1" aria-disabled="true">Consultas</a>
                     </li>
 
 
@@ -68,28 +68,28 @@ $logged = $session->get('logged_in');
     $cont = $cart->totalItems();?>
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?php echo base_url('inicio'); ?>">Home</a>
+                        <a class="nav-link fs-5 active" aria-current="page" href="<?php echo base_url('inicio'); ?>">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('Productos'); ?>">Productos</a>
+                        <a class="nav-link fs-5" href="<?php echo base_url('Productos'); ?>">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('Carrito'); ?>">Carrito <span style="color: green"><?php echo $cont ?></span></a>
+                        <a class="nav-link fs-5" href="<?php echo base_url('Carrito'); ?>">Carrito <span style="color: green"><?php echo $cont ?></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('post-venta'); ?>">Resumen Venta</a>
+                        <a class="nav-link fs-5" href="<?php echo base_url('post-venta'); ?>">Resumen Venta</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('quienessomos'); ?>" tabindex="-1" aria-disabled="true">¿Quienes somos?</a>
+                        <a class="nav-link fs-5" href="<?php echo base_url('quienessomos'); ?>" tabindex="-1" aria-disabled="true">¿Quienes somos?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('consultas'); ?>" tabindex="-1" aria-disabled="true">Consultas</a>
+                        <a class="nav-link fs-5" href="<?php echo base_url('consultas'); ?>" tabindex="-1" aria-disabled="true">Consultas</a>
                     </li>
 
  <?php }?>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('Logout'); ?>" tabindex="-1" aria-disabled="true">Cerrar Sesión</a>
+                        <a class="nav-link fs-5" href="<?php echo base_url('Logout'); ?>" tabindex="-1" aria-disabled="true">Cerrar Sesión</a>
                     </li>
 
                 </ul>
@@ -107,21 +107,21 @@ $logged = $session->get('logged_in');
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?php echo base_url('inicio'); ?>">Home</a>
+                        <a class="nav-link fs-5 active" aria-current="page" href="<?php echo base_url('inicio'); ?>">Home</a>
                     </li>
 
 
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('Productos'); ?>">Productos</a>
+                        <a class="nav-link fs-5" href="<?php echo base_url('Productos'); ?>">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('quienessomos'); ?>" tabindex="-1" aria-disabled="true">¿Quienes somos?</a>
+                        <a class="nav-link fs-5" href="<?php echo base_url('quienessomos'); ?>" tabindex="-1" aria-disabled="true">¿Quienes somos?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('consultas'); ?>" tabindex="-1" aria-disabled="true">Consultas</a>
+                        <a class="nav-link fs-5" href="<?php echo base_url('consultas'); ?>" tabindex="-1" aria-disabled="true">Consultas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('Login'); ?>" tabindex="-1" aria-disabled="true">Iniciar Sesion</a>
+                        <a class="nav-link fs-5" href="<?php echo base_url('Login'); ?>" tabindex="-1" aria-disabled="true">Iniciar Sesion</a>
                     </li>
 
 
