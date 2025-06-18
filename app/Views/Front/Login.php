@@ -3,46 +3,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
-  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+ <link href="assets/CSS/carousel.css" rel="stylesheet">
   <link href="assets/CSS/body.css" rel="stylesheet">
-  <link href="assets/CSS/carrusel.css" rel="stylesheet">
-  <link href="assets/CSS/end-nav.css" rel="stylesheet">
+
 </head>
 
 <body>
   <div class="container mt-5 mb-5 d-flex justify-content-center">
-    <div class="card rounded-3 shadow-lg col-12 col-sm-10 col-md-8 col-lg-6 p-0" style="background-color: #f9f9f9;">
-      <div class="card-header text-center bg-dark rounded-top">
-        <h2 class="text-white">Iniciar sesión</h2>
-        <?php if(session()->getFlashdata('msg')): ?>
-          <div class="alert alert-warning">
-            <?= session()->getFlashdata('msg') ?>
-          </div>
-        <?php endif; ?>
-      </div>
-      <form method="post" id="formLogin" action="<?= base_url('/enviarlogin') ?>">
-        <div class="card-body bg-dark text-white rounded-bottom">
-          <div class="mb-3">
-            <label for="email" class="form-label d-block text-center w-150">Correo</label>
-            <input id="email" name="email" type="text" class="form-control rounded-3" placeholder="ingrese el correo">
-          </div>
-          <div class="mb-3">
-            <label for="pass" class="form-label d-block text-center w-150">Contraseña</label>
-            <input id="pass" name="pass" type="password" class="form-control rounded-3" placeholder="ingrese la contraseña">
-          </div>
-          <div class="d-flex justify-content-between gap-2 mt-3">
-            <button type="submit" class="btn btn-secondary w-50 rounded-3 py-2">Ingresar</button>
-            <button type="button" class="btn btn-secondary w-50 rounded-3 py-2" onclick="document.getElementById('formLogin').reset();">Cancelar</button>
-          </div>
-          <br>
-          <span class="text-white">¿Aún no se registró?
-            <a href="#" data-bs-toggle="modal" data-bs-target="#registerModal">Registrarse aquí</a>
-          </span>
-        </div>
-      </form>
+  <div class="card bg-dark text-white w-50">
+    <div class="card-header text-center bg-dark border-0">
+      <h2 class="text-white">Iniciar sesión</h2>
     </div>
-  </div>
 
-  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Mensaje de Error -->
+    <?php if(session()->getFlashdata('msg')):?>
+      <div class="alert alert-warning text-center">
+        <?= session()->getFlashdata('msg') ?>
+      </div>
+    <?php endif; ?>  
+
+    <!-- Formulario de login -->
+    <form method="post" action="<?= base_url('/enviarlogin') ?>">
+      <div class="card-body text-center">
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo</label>
+          <input name="email" type="text" class="form-control" placeholder="Correo" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="pass" class="form-label">Contraseña</label>
+          <input name="pass" type="password" class="form-control" placeholder="Contraseña" required>
+        </div>
+
+        <div class="d-flex justify-content-center gap-2 my-3">
+          <button type="submit" class="btn btn-success px-4">Ingresar</button>
+          <a href="<?= base_url('login') ?>" class="btn btn-danger px-4">Cancelar</a>
+        </div>
+
+        <span>¿Aún no se registró? <a href="<?= base_url('/Registrar') ?>" class="text-info">Registrarse aquí</a></span>
+
+      </div>
+    </form>
+  </div>
+</div>
+
 </body>
-</html>
+   
+  

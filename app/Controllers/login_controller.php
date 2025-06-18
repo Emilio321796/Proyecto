@@ -43,11 +43,11 @@ class login_controller extends BaseController
                    if($verify_pass){
                      $ses_data = [
                     'id_usuario' => $data['id_usuario'],
-                    'nombre' => $data['Nombre'],
-                    'apellido'=> $data['Apellido'],
-                    'usuario' => $data['Usuario'],
-                    'email' =>  $data['Email'],
-                    'perfil_id'=> $data['perfil_id'],
+                    'nombre'     => $data['Nombre'],
+                    'apellido'   => $data['Apellido'],
+                    'usuario'    => $data['Usuario'],
+                    'email'      =>  $data['Email'],
+                    'perfil_id'  => $data['perfil_id'],
                     'logged_in'  => TRUE
                 ];
                   //Si se cumple la verificacion inicia la sesiòn  

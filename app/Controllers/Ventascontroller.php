@@ -5,7 +5,7 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 use App\Models\Ventas_cabecera_model;
 use App\Models\Ventas_detalle_model;
-
+use App\Models\Producto_Model;
 
 class Ventascontroller extends Controller
 {
@@ -159,32 +159,35 @@ class Ventascontroller extends Controller
             $productoModel->update($item['id'], ['Stock' => $nuevoStock]);
        }
        $cart->destroy(); // si usás $cart = \Config\Services::cart();
-       return redirect()->to(base_url('/carrito'))->with('success', 'Compra realizada con éxito.');
+       return redirect()->to(base_url("Ventas/factura/$idVentaCabecera"));
     }
   }
 
   public function mostrar()
 {
-    $ventaCabeceraModel = new \App\Models\Ventas_cabecera_model();
-    $ventaDetalleModel  = new \App\Models\Ventas_detalle_model();
-    $productoModel = new \App\Models\Producto_Model();
+    //$ventaCabeceraModel = new \App\Models\Ventas_cabecera_model();
+    //$ventaDetalleModel  = new \App\Models\Ventas_detalle_model();
+    //$productoModel = new \App\Models\Producto_Model();
     $db = \Config\Database::connect();
 
       
 
     // Traer todas las cabeceras
-    $ventas = $ventaCabeceraModel->findAll();
+    $builder = $db->table('venta_cabecera vc');
+    $builder->select('vc.*, u.Nombre, u.Apellido, u.Email');
+    $builder->join('usuarios u', 'u.id_usuario = vc.usuario_id', 'left');
+    $ventas = $builder->get()->getResultArray();
 
     foreach ($ventas as &$venta) {
         $venta_id = $venta['id'];
 
         // Traer detalles con JOIN a productos
-        $builder = $db->table('venta_detalle vd');
-        $builder->select('vd.*, p.nombre AS producto_nombre');
-        $builder->join('producto p', 'p.ID_Pro = vd.producto_id');  // Cambia 'id' si es 'pd_id'
-        $builder->where('vd.venta_id', $venta_id);
+        $detalleBuilder = $db->table('venta_detalle vd');
+        $detalleBuilder->select('vd.*, p.nombre AS producto_nombre');
+        $detalleBuilder->join('producto p', 'p.ID_Pro = vd.producto_id');  
+        $detalleBuilder->where('vd.venta_id', $venta_id);
 
-        $venta['detalles'] = $builder->get()->getResultArray();
+        $venta['detalles'] = $detalleBuilder->get()->getResultArray();
     }
 
      echo view('Front/nav-view');
@@ -227,97 +230,59 @@ class Ventascontroller extends Controller
     }
 
     public function ventasUsuario()
-{
+    {
     $usuario_id = session()->get('id_usuario');
 
-    $ventaModel = new \App\Models\Ventas_cabecera_model();
+    $db = \Config\Database::connect();
     $detalleModel = new \App\Models\Ventas_detalle_model();
 
-    echo "Usuario en sesión: $usuario_id<br>";
-    // Obtener todas las ventas del usuario
-    $ventas = $ventaModel->where('usuario_id', $usuario_id)->findAll();
+    
+    $builder = $db->table('venta_cabecera vc');
+    $builder->select('vc.*, u.Nombre as nombre_usuario, u.Apellido as apellido_usuario, u.Email as email_usuario');
+    $builder->join('usuarios u', 'u.id_usuario = vc.usuario_id', 'inner');
+    $builder->where('vc.usuario_id', $usuario_id);
+    $ventas = $builder->get()->getResultArray();
 
-    // Para cada venta, obtener sus detalles
+   
     foreach ($ventas as &$venta) {
         $venta['detalles'] = $detalleModel->obtenerDetallesPorVentaId($venta['id']);
     }
-   echo view('Front/nav-view');
-   echo view('/post-venta', ['ventas' => $ventas]);
-}
 
-    public function factura($id = null)
-    {
-    // Validar ID
-    if (!is_numeric($id) || $id <= 0) {
-        return redirect()->to(base_url('/'))->with('error', 'ID de venta inválido.');
+    echo view('Front/nav-view');
+    echo view('post-venta', ['ventas' => $ventas]);
     }
 
-    // Cargar modelos
-    $ventaCabeceraModel = new \App\Models\Ventas_cabecera_model();
-    $ventaDetalleModel  = new \App\Models\Ventas_detalle_model();
+ public function factura($id)
+{
+    $db = \Config\Database::connect();
 
-    // Buscar la venta
-    $venta = $ventaCabeceraModel
-        ->join("usuarios", "usuarios.id_usuario = venta_cabecera.usuario_idlo")
-        ->where('id_ventaCab', $id)
-        ->first();
+    // Modelo de cabecera y detalle
+    $cabecera = $db->table('venta_cabecera vc')
+                   ->select('vc.*, u.Nombre as nombre_usuario')
+                   ->join('usuarios u', 'vc.usuario_id = u.id_usuario')
+                   ->where('vc.id', $id)
+                   ->get()
+                   ->getRowArray();
 
-    if (!$venta) {
-        return redirect()->to(base_url('/'))->with('error', 'Venta no encontrada.');
-    }
+    $detalleModel = new \App\Models\Ventas_detalle_model();
 
-    // Buscar detalles
-    $detalle_compra = $ventaDetalleModel
-        ->where('id_ventaCab', $id)
-        ->join('producto', 'producto.ID_Pro = venta_detalle.id')
-        ->findAll();
+    $detalle = $detalleModel->where('venta_id', $id)
+                            ->join('producto', 'producto.ID_Pro = venta_detalle.producto_id')
+                            ->select('producto.Nombre, venta_detalle.*')
+                            ->findAll();
+    
+    $total = 0;
+    foreach ($detalle as $item) {
+        $total += $item['cantidad'] * $item['Precio']; // asumiendo que 'Precio' está en $item
+    } 
 
-
-    if (!$venta || empty($detalles)) {
-        return redirect()->to(base_url('/'))->with('error', 'Venta no encontrada.');
-    }
-
-    // Cargar FPDF
-    require_once APPPATH . 'ThirdParty/fpdf/fpdf.php';
-    $pdf = new \FPDF();
-    $pdf->AddPage();
-    $pdf->SetFont('Arial', 'B', 16);
-    $pdf->Cell(0, 10, 'Factura - Sabores Express', 0, 1, 'C');
-    $pdf->SetFont('Arial', '', 12);
-    $pdf->Cell(0, 10, 'Fecha: ' . date('d/m/Y', strtotime($venta['fecha'])), 0, 1);
-    $pdf->Cell(0, 10, 'Factura N°: ' . $venta['id'], 0, 1);
-    $pdf->Ln(5);
-
-    // Tabla de productos
-    $pdf->SetFont('Arial', 'B', 12);
-    $pdf->Cell(70, 10, 'Producto', 1);
-    $pdf->Cell(30, 10, 'Precio', 1);
-    $pdf->Cell(30, 10, 'Cantidad', 1);
-    $pdf->Cell(50, 10, 'Subtotal', 1);
-    $pdf->Ln();
-
-    $pdf->SetFont('Arial', '', 12);
-    foreach ($detalles as $d) {
-        $subtotal = $d['Precio'] * $d['cantidad'];
-        $pdf->Cell(70, 10, utf8_decode($d['producto_nombre']), 1);
-        $pdf->Cell(30, 10, '$' . number_format($d['Precio'], 2), 1);
-        $pdf->Cell(30, 10, $d['cantidad'], 1);
-        $pdf->Cell(50, 10, '$' . number_format($subtotal, 2), 1);
-        $pdf->Ln();
-    }
-
-    // Total
-    $pdf->Ln(5);
-    $pdf->SetFont('Arial', 'B', 12);
-    $pdf->Cell(130, 10, 'Total Pagado:', 1);
-    $pdf->Cell(50, 10, '$' . number_format($venta['total_venta'], 2), 1);
-    $pdf->Ln();
-
-    // Mostrar PDF
-    $pdf->Output('I', 'Factura_' . $venta['id'] . '.pdf');
-    exit();
+    return view('Ventas/factura', [
+        'venta' => $cabecera,
+        'detalle' => $detalle,
+        'total'   => $total
+    ]);
 }
 
 
-  
+
 }

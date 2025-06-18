@@ -4,15 +4,18 @@
     <?php if (!empty($ventas)): ?>
         <?php $totalGeneral = 0; ?>
         <div class="table-responsive">
+    
             <table class="table table-bordered table-hover text-center align-middle">
                 <thead class="table-primary">
                     <tr>
                         <th>ID Venta</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Email</th>
                         <th>Fecha</th>
                         <th>Producto</th>
-                        <th>Precio Unitario</th>
-                        <th>Cantidad</th>
                         <th>Subtotal</th>
+                        <th>Opcion</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -25,25 +28,35 @@
                                 ?>
                                 <tr>
                                     <td><?= $venta['id'] ?></td>
+                                    <td><?= esc($venta['nombre_usuario']) ?></td>
+                                    /<td><?= esc($venta['apellido_usuario']) ?></td>
+                                    <td><?= esc($venta['email_usuario']) ?></td>
                                     <td><?= date('d-m-Y', strtotime($venta['fecha'])) ?></td>
                                     <td><?= esc($detalle['producto_nombre']) ?></td>
-                                    <td>$<?= number_format($detalle['Precio'], 2) ?></td>
-                                    <td><?= $detalle['cantidad'] ?></td>
                                     <td>$<?= number_format($subtotal, 2) ?></td>
+                                    <td>
+                                    <a href="<?= base_url('factura/' . $venta['id']) ?>" class="btn btn-info btn-sm">Ver Detalle</a>
+                                    </td>
                                 </tr>
                             <?php endforeach; ?>
                         <?php else: ?>
                             <tr>
-                                <td><?= $venta['id'] ?></td>
-                                <td><?= date('d-m-Y', strtotime($venta['fecha'])) ?></td>
-                                <td colspan="4">No hay detalles para esta venta</td>
+                               <td><?= $venta['id'] ?></td>
+                               <td><?= esc($ventas['nombre_usuario'] ?? '---') ?></td>
+                               <td><?= esc($ventas['apellido_usuario'] ?? '---') ?></td>
+                               <td><?= esc($ventas['email_usuario'] ?? '---') ?></td>
+                               <td><?= date('d-m-Y', strtotime($venta['fecha'])) ?></td>
+                               <td colspan="2">No hay detalles para esta venta</td>
+                               <td>
+                                 <a href="<?= base_url('factura/' . $venta['id']) ?>" class="btn btn-info btn-sm">Ver Detalle</a>
+                               </td>
                             </tr>
                         <?php endif; ?>
                     <?php endforeach; ?>
                 </tbody>
                 <tfoot class="table-success">
                     <tr>
-                        <th colspan="5" class="text-end">Total General:</th>
+                        <th colspan="6" class="text-end">Total General:</th>
                         <th>$<?= number_format($totalGeneral, 2) ?></th>
                     </tr>
                 </tfoot>

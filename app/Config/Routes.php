@@ -52,9 +52,10 @@ $routes->get('modificar_usuario', 'User_modify_controller::user_modify',['filter
 $routes->get('modify_user_post', 'User_modify_controller::modify_validacion',['filter' => 'register']);
 
 /*rutas del Registro de Usuarios*/
-$routes->post('/Crear','Usuario_controller::formValidation');
-$routes->get('/Registrar','Home::Registrar');
-$routes->get('/Usuario', 'UsuarioController::crud');
+$routes->post('/Crear','usuario_controller::formValidation');
+$routes->get('/Registrar','usuario_controller::formValidation');
+$routes->get('/Usuario', 'usuarioController::crud');
+$routes->get('login', 'Login_controller::index');
 
 
 /* rutas producto */
@@ -102,7 +103,7 @@ $routes->get('Carrito', 'Carrito_controller::muestra');
 $routes->get('Carrito', 'Carrito_controller::');
 
 $routes->post('carrito/comprar', 'Carrito_controller::comprar');
-$routes->post('resumen-compra', 'Carrito_controller::resumenCompra');
+
 
 
 /* Crud */
@@ -112,6 +113,11 @@ $routes->get('usuario/crud', 'UsuarioController::Usuario_Crud');
 $routes->get('consultas', 'Consulta_Controller::index');
 $routes->post('guardar-consultas', 'Consulta_Controller::guardar');
 $routes->get('listar-consultas', 'Consulta_Controller::listar');
+$routes->get('Consultas/listar', 'Consulta_Controller::listar');
+$routes->get('Consultas/atender_consulta/(:num)', 'Consulta_Controller::atender_consulta/$1');
+$routes->get('Consultas/eliminar_consulta/(:num)', 'Consulta_Controller::eliminar_consulta/$1');
+
+
 
 
 /* ventas */
@@ -125,9 +131,10 @@ $routes->post('ventas/borrarDetalle/(:num)', 'Ventascontroller::borrarDetalle/$1
 $routes->get('Ventas/Mostrar_Ventas', 'Ventascontroller::mostrar');
 $routes->post('ventas/reiniciarStock', 'Ventascontroller::reiniciarStock');
 //$routes->get('post-venta/(:num)', 'Ventascontroller::resumen/$1');
-$routes->get('factura/(:num)', 'Ventascontroller::factura/$1');
+$routes->get('Ventas/factura/(:num)', 'Ventascontroller::factura/$1');
 $routes->get('post-venta', 'Ventascontroller::ventasUsuario');
-
+$routes->get('factura/(:num)', 'Ventascontroller::factura/$1');
+$routes->get('post-venta', 'Ventascontroller::listado');
 
 
 

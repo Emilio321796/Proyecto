@@ -17,4 +17,15 @@ class Ventas_detalle_model extends Model{
                 ->where('venta_detalle.venta_id', $venta_id)
                 ->findAll();
    }
+
+    public function getDetalleVenta($venta_id)
+    {
+        return $this->db->table('venta_detalle vd')
+            ->select('vd.cantidad, vd.Precio, p.Nombre as nombre_usuario')
+            ->join('producto p', 'p.ID_Pro = vd.producto_id')
+            ->where('vd.venta_id', $venta_id)
+            ->get()
+            ->getResultArray();
+    }
+
 }

@@ -64,10 +64,13 @@
             $cart = $cart->contents();
             if (empty($cart)) {
                 echo 'Para agregar productos al carrito click en '; ?>
-                <a class="btn btn-warning text-dark mt-2" href="<?php echo base_url('/Productos') ?>">
+                
+                    <a class="btn btn-warning text-dark mt-2" href="<?php echo base_url('/Productos') ?>">
                     <i class="fa-solid fa-circle-chevron-left"></i>
                     Catálogo
-                </a>
+                    </a>
+                      <br> 
+                   
             <?php } ?>
         </div>
     </div>

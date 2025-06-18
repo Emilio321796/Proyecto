@@ -133,6 +133,8 @@ public function comprar()
     if (empty($cartItems)) {
         return redirect()->to('/carrito')->with('mensaje', 'El carrito está vacío');
     }
+    
+    
 
     // Cargar modelos
     $ventasCabeceraModel = new \App\Models\Ventas_cabecera_model();
@@ -161,7 +163,7 @@ public function comprar()
     foreach ($cartItems as $item) {
         $detalleData = [
             'venta_id' => $ventaId,
-            'producto_id' => $item['name'],
+            'producto_id' => $item['id'],
             'cantidad' => $item['qty'],
             'Precio'   => $item['price'],
             'subtotal' => $item['price'] * $item['qty']
@@ -171,10 +173,9 @@ public function comprar()
 
     // Vaciar el carrito
     $cart->destroy();
-
-    // Redirigir con mensaje de éxito
-    return redirect()->to('/carrito')->with('compra_exitosa', '¡Gracias por su compra!');
-
+     
+     
+    return redirect()->to(site_url("Ventas/factura/$ventaId"));
    }
 
     public function resumenCompra()
@@ -195,7 +196,7 @@ public function comprar()
         . view('resumen-compra', ['cart' => $contenido, 'total' => $total]);
     }
 
-    public function finalizarCompra()
+    /*public function finalizarCompra()
     {
     $session = session();
     $usuario_id = $session->get('id_usuario');
@@ -236,7 +237,5 @@ public function comprar()
     $cart->destroy();
 
     return redirect()->to('/carrito')->with('success', '¡Compra finalizada correctamente!');
-    }
-
-
+    }*/
 }

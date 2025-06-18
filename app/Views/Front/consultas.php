@@ -18,7 +18,7 @@
 
 <div class="container mt-5">
   <div class="card shadow-lg col-md-8 mx-auto">
-    <div class="card-header bg-dark text-white">
+    <div class="card-header bg-dark text-white text-center">
       <h4>Realizar una Consulta</h4>
     </div>
 

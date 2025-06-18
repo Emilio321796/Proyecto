@@ -42,12 +42,13 @@ class Consulta_Controller extends BaseController
             'email'      => $this->request->getPost('email'),
             'ciudad'     => $this->request->getPost('ciudad'),
             'pais'       => $this->request->getPost('pais'),
-            'comentario' => $this->request->getPost('comentario')
+            'comentario' => $this->request->getPost('comentario'),
+             
         ];
 
         $model->save($data);
 
-        return redirect()->to(site_url('Front/consultas'))->with('msg', 'Consulta enviada correctamente.');
+        return redirect()->to(site_url('consultas'))->with('msg', 'Consulta enviada correctamente.');
 
     }
 
@@ -60,4 +61,21 @@ class Consulta_Controller extends BaseController
         echo view('Front/nav-view');
         echo view('Consultas/Lista_Consulta', $data); // Asegurate de que esta vista exista
     }
+
+   public function atender_consulta($id = null)
+    {
+        $consultasM = new consulta_model();
+        $consultasM->getConsulta($id);
+        $consultasM->update($id, ['respuesta' => 'SI']);
+        return redirect()->to(base_url('Consultas/listar'));
+    }
+
+     public function eliminar_consulta($id = null)
+    {
+        $model = new consulta_model();
+        $model->getConsulta($id);
+        $model->delete($id);
+        return redirect()->to(base_url('Consultas/listar'));
+    }
+
 }

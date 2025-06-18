@@ -12,7 +12,7 @@ class usuario_controller extends Controller{
 
     public function index(){
         $usuarios = new usuario_model();
-$data['usuarios'] = $usuarios->findAll();
+        $data['usuarios'] = $usuarios->findAll();
         echo view('Front/nav-view');
         echo view('Views/Usuario/Usuario_Crud',$data);
         echo view('Front/end-view');
@@ -20,22 +20,13 @@ $data['usuarios'] = $usuarios->findAll();
     }
 
 
-   public function create()
-{
-    $request = \Config\Services::request();
-    $data = [
-        'Nombre'    => $request->getPost('Nombre'),
-        'Usuario'   => $request->getPost('Usuario'),
-        'Email'     => $request->getPost('Email'),
-        'Password'  => password_hash($request->getPost('Password'), PASSWORD_DEFAULT),
-        'id_Perfil' => 2
-    ];
-
-    $model = new \App\Models\usuario_model();  // o como se llame tu modelo
-    $model->insert($data);
-
-    return redirect()->to('/')->with('msg', 'Registro exitoso');
-}
+    public function create() {
+        
+         $dato['titulo']='Registro'; 
+        
+         echo view('nav-view');
+         echo view('Registrar');        
+    }
 
 
  public function actualizarDatos()
@@ -62,11 +53,44 @@ $data['usuarios'] = $usuarios->findAll();
     public function formValidation() {
              
         $input = $this->validate([
-            'nombre'   => 'required|min_length[3]',
-            'apellido' => 'required|min_length[3]|max_length[25]',
-            'usuario'  => 'required|min_length[3]',
-            'email'    => 'required|min_length[4]|max_length[100]|valid_email|is_unique[usuarios.email]',
-            'pass'     => 'required|min_length[3]|max_length[10]'
+            'nombre' => [
+            'rules' => 'required|min_length[3]',
+            'errors' => [
+                'required' => 'El campo Nombre es obligatorio.',
+                'min_length' => 'El campo Nombre debe tener al menos 3 caracteres.'
+            ]
+        ],
+             'apellido' => [
+            'rules' => 'required|min_length[3]|max_length[25]',
+            'errors' => [
+                'required' => 'El campo Apellido es obligatorio.',
+                'min_length' => 'El Apellido debe tener al menos 3 caracteres.',
+                'max_length' => 'El Apellido no puede exceder los 25 caracteres.'
+            ]
+        ],
+            'usuario' => [
+            'rules' => 'required|min_length[3]',
+            'errors' => [
+                'required' => 'El campo Usuario es obligatorio.',
+                'min_length' => 'El Usuario debe tener al menos 3 caracteres.'
+            ]
+        ],
+            'email' => [
+            'rules' => 'required|valid_email|is_unique[usuarios.email]',
+            'errors' => [
+                'required' => 'El campo Correo Electrónico es obligatorio.',
+                'valid_email' => 'Ingrese un correo electrónico válido.',
+                'is_unique' => 'Este correo ya está registrado.'
+            ]
+        ],
+             'pass' => [
+            'rules' => 'required|min_length[6]|max_length[20]',
+            'errors' => [
+                'required' => 'El campo Contraseña es obligatorio.',
+                'min_length' => 'La contraseña debe tener al menos 6 caracteres.',
+                'max_length' => 'La contraseña no puede exceder los 20 caracteres.'
+            ]
+        ]
         ],
         
        );
@@ -98,14 +122,22 @@ $data['usuarios'] = $usuarios->findAll();
     }
 
         // Se realiza la eliminación lógica del usuario
-        public function borrar($id = null)
-        {
-            $user = new usuario_model();
-            $user->update($id, ['baja' => "SI"]);
-            // Se redireccion a la tabla de consulta de los usuarios
-            return redirect()->back()->with('alertaExitosa', 'Usuario Eliminado con Exito!');
-        }
+    public function borrar($id = null)
+    {
+    $userModel = new usuario_model();
     
+    // Obtener el usuario que se quiere borrar
+    $usuario = $userModel->find($id);
+
+    // Verificar si existe y si su perfil_id es 2
+    if ($usuario && $usuario['perfil_id'] == 2) {
+        $userModel->update($id, ['baja' => "SI"]);
+        return redirect()->back()->with('alertaExitosa', 'Usuario eliminado con éxito!');
+        } else {
+        return redirect()->back()->with('alertaError', 'No tiene permiso para eliminar este usuario.');
+        }
+    }
+
 
         public function editar($id = null){
             $user = new usuario_model();
